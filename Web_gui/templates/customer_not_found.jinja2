@@ -1,0 +1,14 @@
+{% extends "_main.jinja2" %}
+
+{% block title %} Customer not found {% endblock %}
+
+{% block main %}
+            <h1>Oops!</h1>
+            <h2>This article doesn't exists</h2>
+            <p> Unfortunately this customer with id "{{ id }}" doens't
+                exists :( </p>
+            <div>
+                <a href={{ url_for("view_welcome_page") }}> Home </a> | 
+                <a href={{ url_for("view_admin") }}>All customers</a>
+            </div>
+{% endblock %}

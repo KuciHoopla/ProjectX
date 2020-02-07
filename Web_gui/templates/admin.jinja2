@@ -1,0 +1,41 @@
+{% extends "_main.jinja2" %}
+
+{% block title %} Admin page {% endblock %}
+
+{% block buttons %}
+    <h1 id="customers_header">Customers database</h1>
+
+   <button type="button" class="btn btn-dark" id='btn_create' name="scriptbutton" >Create database</button>
+    <a href={{ url_for("add_customer") }}>  <button type="button" class="btn btn-dark" id='btn_add_customer'>Add customer</button>
+    </a>
+   <button type="button" class="btn btn-dark" id='btn_create_new_consumption' name="scriptbutton" >Create new consumption</button>
+   <button type="button" class="btn btn-dark" id="btn_invoices" name="scriptbutton"  >Send invoices</button>
+    <button type="button" class="btn btn-danger" id="btn_delete" name="scriptbutton"  >Delete all files</button>
+{% endblock %}
+
+{% block main %}
+      {% if customers %}
+        <div id="cards-wrapper">
+        {% for customer in customers %}
+             <div class="card-holder">
+              <img  class="card-photo rounded-circle" src="{{customer.face}}" class="card-img-top" alt="avatar">
+              <div class="text-holder">
+                    <p> Name: <span>{{ customer.first_name}}</span> </p>
+                    <p> Surname: <span>{{ customer.last_name}}</span> </p>
+                    <p> Email: <span>{{ customer.email}}</span> </p>
+                    <p> Address: <span>{{ customer.address}}</span> </p>
+                    <p> Consumption: <span>{{ customer.consumption}}</span> </p>
+                    <p> Tariff: <span>{{ customer.tariff}}</span> </p>
+              </div>
+                <div>
+                <a href="{{ url_for("view_customer", id=customer.id) }}" class="btn btn-primary">Customer id: {{ customer.id }}</a>
+                </div>
+            </div>
+
+        {% endfor %}
+        </div>
+    {% else %}
+        <p> No Customers :( </p>
+    {% endif %}
+
+{% endblock %}

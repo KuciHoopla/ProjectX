@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/invoiceRPA" />
+  </component>
+  <component name="ProjectId" id="1Wew95KqB3q0rSXyAjuc9OTsiTD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\mail" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\resources\tables" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\creators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\creators\runners" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\creators\resources\chromedriver" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\creators" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\gmail_check" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_in_gui">
+    <configuration name="run_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\creators\runners\run_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_in_command_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_in_command_line.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_in_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_in_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/creators/table" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/creators/table/table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/creators/variables" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/creators/variables/variables.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_in_gui" />
+        <item itemvalue="Python.table" />
+        <item itemvalue="Python.run_gui" />
+        <item itemvalue="Python.run_in_command_line" />
+        <item itemvalue="Python.variables" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="" />
+      <created>1579523213549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579523213549</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="922" y="170" key="#Inspections" timestamp="1579530433699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="170" key="#Inspections/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579530433699" />
+    <state x="752" y="266" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580119694781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="266" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580119694781" />
+    <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579765900078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579765900078" />
+    <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1580130184347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="846" y="289" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580130184347" />
+    <state width="1179" height="257" key="GridCell.Tab.0.bottom" timestamp="1580196377723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1179" height="257" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580196377723" />
+    <state width="1173" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864633" />
+    <state width="1179" height="257" key="GridCell.Tab.0.center" timestamp="1580196377723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1179" height="257" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580196377723" />
+    <state width="1173" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1179" height="257" key="GridCell.Tab.0.left" timestamp="1580196377723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1179" height="257" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580196377723" />
+    <state width="1173" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1179" height="257" key="GridCell.Tab.0.right" timestamp="1580196377723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1179" height="257" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580196377723" />
+    <state width="1173" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1173" height="321" key="GridCell.Tab.1.bottom" timestamp="1580133306232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1173" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580133306232" />
+    <state width="1173" height="321" key="GridCell.Tab.1.center" timestamp="1580133306232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1173" height="321" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580133306232" />
+    <state width="1173" height="321" key="GridCell.Tab.1.left" timestamp="1580133306232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1173" height="321" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580133306232" />
+    <state width="1173" height="321" key="GridCell.Tab.1.right" timestamp="1580133306232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1173" height="321" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580133306232" />
+    <state x="622" y="166" key="SettingsEditor" timestamp="1580126458697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="166" key="SettingsEditor/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580126458697" />
+    <state x="917" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1579769261617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="917" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579769261617" />
+  </component>
+</project>

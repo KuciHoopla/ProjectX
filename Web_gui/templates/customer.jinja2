@@ -1,0 +1,23 @@
+{% extends "_main.jinja2" %}
+
+{% block title %} Customer: {{ customer[2]}} {% endblock %}
+
+
+{% block main %}
+    {% if customer %}
+        <div class="container">
+            <div class="card">
+                <img  class="card-photo rounded-circle" src='{{customer[7]}}' class="card-img-top" alt="avatar">
+               <p>Customer ID:      <span>{{ customer[0] }}</span></p>
+               <p>Name:             <span>{{ customer[1] }}</span></p>
+               <p>Surname:          <span>{{ customer[2] }}</span></p>
+               <p>Email:            <span>{{ customer[3] }}</span></p>
+               <p>Address:          <span>{{ customer[4] }}</span></p>
+               <p>Consumption:      <span>{{ customer[5] }}</span></p>
+               <p>Tariff:           <span>{{ customer[6] }}</span></p>
+            </div>
+         </div>
+    {% else %}
+        <p> No Customers :( </p>
+    {% endif %}
+{% endblock %}
