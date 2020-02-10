@@ -6,7 +6,7 @@ date = datetime.now(timezone.utc)
 date = date.strftime('%Y-%m-%d-%H-%M-%S')
 
 
-resources_folder = "C:\\Users\\JanKucera\\PycharmProjects\\ProjectX\\RPA\\creators\\resources\\"
+resources_folder = "C:\\Users\\JanKucera\\PycharmProjects\\Project\\RPA\\creators\\resources\\"
 
 photos_folder = f'{resources_folder}\\photos'
 
