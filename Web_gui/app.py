@@ -95,7 +95,12 @@ def add_customer():
             id = random.randrange(100, 999999)
             insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
             print(get_all_database_customers())
-            return render_template("add_success.jinja2")
+            with DatabaseConnection(database) as connection:
+                cursor = connection.cursor()
+                cursor.execute('SELECT * FROM customers WHERE id=(?)', [id])
+                customer = cursor.fetchone()
+                if customer:
+                    return render_template("customer.jinja2", customer=customer)
         else:
             return render_template("add_customer.jinja2")
 

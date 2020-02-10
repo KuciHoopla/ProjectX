@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 def send_mail(path_pdf, email, number):
     subject = f"Invoice nr: {number} from Energy Kft."
     body = "Dear customer, \n please find invoice in attachment."
-    sender_email = "testing@primitivestesteri.online"
+    sender_email = "invoice.rpa.2020@gmail.com"
     receiver_email = email
     password = "Automationproject2020"
 
@@ -41,7 +41,7 @@ def send_mail(path_pdf, email, number):
 
     # Log in to server using secure context and send email
     context = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtp.websupport.sk", 465, context=context) as server:
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, text)
 

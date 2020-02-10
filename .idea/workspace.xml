@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="02070930" />
+    <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="02070930">
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/invoices.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/invoices_numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/template.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/database/database_invoices.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/database_invoices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/customers.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/customers_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1000.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1001.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1001.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1002.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1002.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1003.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1003.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1004.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1004.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1005.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1005.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1006.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1006.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1007.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1007.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1008.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1008.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1009.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1010.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1011.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1013.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1014.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1015.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1025.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1026.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1027.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1028.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1029.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1030.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1031.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1032.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1033.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1034.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1035.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/variables/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/variables/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/mail/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/mail/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_gui/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_gui/avatar_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/avatar_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_gui/templates/add_success.jinja2" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RPA" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Wew95KqB3q0rSXyAjuc9OTsiTD" />
@@ -133,28 +182,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fake_face" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceRPA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InvoiceRPA/gmail_check" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InvoiceRPA/gmail_check/fake_face.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run_in_gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,13 +204,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_in_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/run_in_gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_in_gui" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.automat_run_gui" />
         <item itemvalue="Python.create_pdf" />
         <item itemvalue="Python.run_in_gui (1)" />
-        <item itemvalue="Python.fake_face" />
       </list>
     </recent_temporary>
   </component>
@@ -328,10 +376,10 @@
     </state>
     <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580456352301" />
     <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579765900078" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1581067118246">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="589" y="108" key="CommitChangelistDialog2" timestamp="1581327809464">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580977720723" />
+    <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581327809464" />
     <state x="2509" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580474598451" />
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581067118246" />
     <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1580392068005">
@@ -339,33 +387,33 @@
     </state>
     <state x="846" y="289" key="FileChooserDialogImpl/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580392068005" />
     <state x="846" y="289" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580130184347" />
-    <state width="1152" height="151" key="GridCell.Tab.0.bottom" timestamp="1581068703660">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1150" height="260" key="GridCell.Tab.0.bottom" timestamp="1581327002724">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1388" height="385" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581002372848" />
+    <state width="1150" height="260" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581327002724" />
     <state width="1131" height="257" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1152" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581068703660" />
+    <state width="1152" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864633" />
-    <state width="1152" height="151" key="GridCell.Tab.0.center" timestamp="1581068703660">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1150" height="260" key="GridCell.Tab.0.center" timestamp="1581327002724">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1388" height="385" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581002372848" />
+    <state width="1150" height="260" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581327002724" />
     <state width="1131" height="257" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1152" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581068703660" />
+    <state width="1152" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
-    <state width="1152" height="151" key="GridCell.Tab.0.left" timestamp="1581068703659">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1150" height="260" key="GridCell.Tab.0.left" timestamp="1581327002723">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1388" height="385" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581002372848" />
+    <state width="1150" height="260" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581327002723" />
     <state width="1131" height="257" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1152" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581068703659" />
+    <state width="1152" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
-    <state width="1152" height="151" key="GridCell.Tab.0.right" timestamp="1581068703660">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1150" height="260" key="GridCell.Tab.0.right" timestamp="1581327002724">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1388" height="385" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581002372848" />
+    <state width="1150" height="260" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581327002724" />
     <state width="1131" height="257" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1152" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581068703660" />
+    <state width="1152" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
     <state width="1179" height="322" key="GridCell.Tab.1.bottom" timestamp="1580296869183">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -387,10 +435,10 @@
     </state>
     <state width="1179" height="322" key="GridCell.Tab.1.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580296869183" />
     <state width="1173" height="321" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580133306232" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1581068277389">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="743" y="61" key="SettingsEditor" timestamp="1581325728546">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="622" y="166" key="SettingsEditor/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580387998015" />
+    <state x="743" y="61" key="SettingsEditor/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581325728546" />
     <state x="2542" y="166" key="SettingsEditor/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580393995228" />
     <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581068277389" />
     <state x="622" y="166" key="SettingsEditor/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580126458697" />

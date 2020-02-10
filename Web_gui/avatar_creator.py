@@ -1,8 +1,6 @@
 from random import randrange
 from PIL import Image
-import PIL, sys
 
-# Opens a image in RGB mode
 im = Image.open("static/photos/avatars.png")
 image_list = []
 
