@@ -1,7 +1,6 @@
 const btn_create = document.getElementById("btn_create");
 const btn_delete = document.getElementById("btn_delete");
 const btn_create_new_consumption = document.getElementById("btn_create_new_consumption");
-const btn_send_invoices = document.getElementById("btn_invoices");
 
 
 function create_database(){
@@ -29,15 +28,6 @@ function create_new_consumption(){
              context: document.body
             }).done(function() {
              location.reload();
-            });
-        }
-
- function send_invoices(){
-         $.ajax({
-              url: "send_invoices",
-             context: document.body
-            }).done(function() {
-             alert("invoices sent");
             });
         }
 

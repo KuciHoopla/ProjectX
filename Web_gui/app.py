@@ -39,12 +39,6 @@ def view_create_new_consumption():
     return render_template("admin.jinja2")
 
 
-@flask_app.route("/admin/send_invoices")
-def view_send_invoices():
-    create_pdf()
-    return render_template("admin.jinja2")
-
-
 @flask_app.route("/admin/", methods=["GET"])
 def view_admin():
     if "logged" not in session:

@@ -1,18 +1,15 @@
-import os
 from tkinter import *
-from tkinter import messagebox
 from tkinter.scrolledtext import ScrolledText
 from tkinter.ttk import *
+
 from BkgrFrame import BkgrFrame
-from RPA.creators.consumption.consumption_creator import create_new_consumption
-from RPA.creators.customers.customers_creator import create_customers_file, customers_json, filling_json, \
-    get_all_json_customers
-from RPA.creators.database.database_creator import create_customers_table, fill_database_from_json, \
-    update_customer_consumption_from_json_data, get_all_database_customers, customers_database
-from RPA.creators.database.database_invoices import get_all_invoices_numbers, invoices_path, invoices_number_path
+from RPA.creators.database.database_creator import get_all_database_customers
+from RPA.creators.database.database_invoices import get_all_invoices_numbers
 from RPA.creators.pdf.create_pdf import create_pdf
 from RPA.creators.variables.variables import printscreen
 from RPA.gmail_check.gmail_check import gmail_check
+
+database_len_old = 0
 
 
 def create_customer_data():
@@ -32,31 +29,19 @@ def create_customer_data():
 
 
 def automat_run():
+
     # execution window:
     window = Tk()
-    window.geometry('800x900')
+    window.geometry('900x900')
     window.title("Invoice RPA")
     window.configure(background='#66b3ff')
     btns_frame = Frame(window)
     style_of_buttons = Style()
     style_of_buttons.configure('W.TButton', width=23, relief=GROOVE, activebackground="Red", borderwidth='4')
 
-
     def fill_printscreen_frame():
         bkrgframe = BkgrFrame(window, printscreen, 700, 600)
         bkrgframe.pack()
-
-    btn_run_automat = Button(btns_frame, text="Run automat",
-                                       style='W.TButton',
-                                       command=lambda: [print(get_all_database_customers()),
-                                                        update_customer_consumption_from_json_data(),
-                                                        customers_frame.delete(1.0, END),
-                                                        get_data_to_frame(),
-                                                        print(get_all_database_customers()),
-                                                        create_pdf(),
-                                                        invoices_frame.delete(1.0, END),
-                                                        fill_invoices_numbers_table(),
-                                                        gmail_check(), fill_printscreen_frame()])
 
     def fill_invoices_numbers_table():
         invoices_frame.insert(INSERT,
@@ -64,6 +49,7 @@ def automat_run():
 Invoices numbers : 
 {get_all_invoices_numbers()}
                 """)
+        invoices_frame.pack()
 
     def get_len_of_database():
         try:
@@ -117,12 +103,6 @@ ________________________________________________________________________
         width=32,
         height=10
     )
-    get_data_to_frame()
-
-
-    #left side
-    btns_frame.pack(side=LEFT)
-    btn_run_automat.grid(column=1, row=0, pady=3, padx=20)
 
     customer_table_label.pack()
     customers_frame.pack()
@@ -130,9 +110,29 @@ ________________________________________________________________________
     invoices_frame.pack()
     printscreen_label.pack()
 
+    def refresh():
+        global database_len_old
+        database_len = get_len_of_database()
+        customers_frame.delete(1.0, END)
+        invoices_frame.delete(1.0, END)
+        get_data_to_frame()
+        fill_invoices_numbers_table()
+        fill_printscreen_frame()
+        if database_len > database_len_old:
+            create_pdf()
+            # gmail_check()
+            database_len_old = database_len
+        else:
+            print("no new data")
+            print(get_all_database_customers())
+            print(get_all_database_customers())
+
+        window.after(10000, refresh)
+
+    window.after(10000, refresh)
+
     window.mainloop()
 
 
 automat_run()
 
-# create_new_consumption()

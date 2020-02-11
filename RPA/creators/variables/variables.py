@@ -22,6 +22,8 @@ consumption_json = f'{new_consumption_folder}\\consumption-{date}.json'
 customers_database = f'{resources_folder}\\customers.db'
 bckg_picture = f"{photos_folder}\\bckg.png"
 printscreen = f"{photos_folder}\\printscreen.png"
+invoices_path = f"{resources_folder}\\invoices.txt"
+invoices_number_path = f"{resources_folder}\\invoices_numbers.txt"
 
 
 

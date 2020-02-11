@@ -1,10 +1,7 @@
 import os
-
-from RPA.creators.customers.customers_creator import *
-from RPA.creators.database.database_connection import *
-from RPA.creators.variables.variables import customers_database
-invoices_path = r"..\RPA\creators\resources\invoices.txt"
-invoices_number_path = r"..\RPA\creators\resources\invoices_numbers.txt"
+from RPA.creators.variables.variables import invoices_path, invoices_number_path
+invoices_path = invoices_path
+invoices_number_path = invoices_number_path
 
 
 def add_invoice_file(number):

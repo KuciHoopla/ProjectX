@@ -15,9 +15,11 @@ def gmail_check():
     driver.find_element_by_class_name("A37UZe").click()
     driver.find_element_by_class_name("whsOnd").send_keys("Automationproject2020")
     driver.find_element_by_id("passwordNext").click()
-    time.sleep(20)
+    time.sleep(3)
     driver.save_screenshot(printscreen)
     # Image.open(printscreen).show()
+    driver.find_element_by_class_name("T-Jo").click()
+    driver.find_element_by_class_name("asa").click()
+    time.sleep(3)
     driver.close()
-
 

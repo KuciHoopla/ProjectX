@@ -43,4 +43,3 @@ def avatar_pitcher():
 
     return random_avatar
 
-avatars_creator()
