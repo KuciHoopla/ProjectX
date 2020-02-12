@@ -85,4 +85,21 @@ def fill_database_from_json():
         return print("error")
 
 
+def fill_customer_database(number_of_customers):
+        i = 0
+        faces = fake_face()
+        while i < number_of_customers:
+            first_name = names.get_first_name()
+            last_name = names.get_last_name()
+            address = fake.address()
+            email = 'invoice.rpa.2020@gmail.com'
+            # Automationproject2020
+            random_num = random.randrange(100, 999999)
+            id = "sx16" + str(random_num)
+            consumption = random.randrange(200, 2000)
+            tariff = random.randrange(1, 5)
+            face = faces[random.randrange(30)]
+            insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
+            i += 1
+
 

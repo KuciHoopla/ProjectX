@@ -1,5 +1,4 @@
 from random import random
-
 from RPA.creators.customers.customers_creator import *
 from RPA.creators.customers.customers_creator import _save_all
 from RPA.creators.variables.variables import consumption_json

@@ -8,16 +8,36 @@
         <div class="container">
             <div class="card">
                 <img  class="card-photo rounded-circle" src='{{customer[7]}}' class="card-img-top" alt="avatar">
-               <p>Customer ID:      <span>{{ customer[0] }}</span></p>
-               <p>Name:             <span>{{ customer[1] }}</span></p>
-               <p>Surname:          <span>{{ customer[2] }}</span></p>
-               <p>Email:            <span>{{ customer[3] }}</span></p>
-               <p>Address:          <span>{{ customer[4] }}</span></p>
-               <p>Consumption:      <span>{{ customer[5] }}</span></p>
-               <p>Tariff:           <span>{{ customer[6] }}</span></p>
+               <p class="customer_text">Customer ID:      <span>{{ customer[0] }}</span></p>
+               <p class="customer_text">Name:             <span>{{ customer[1] }}</span></p>
+               <p class="customer_text">Surname:          <span>{{ customer[2] }}</span></p>
+               <p class="customer_text">Email:            <span>{{ customer[3] }}</span></p>
+               <p class="customer_text">Address:          <span>{{ customer[4] }}</span></p>
+               <p class="customer_text">Tariff:           <span>{{ customer[6] }}</span></p>
             </div>
          </div>
-    {% else %}
+            {% else %}
         <p> No Customers :( </p>
     {% endif %}
+        {% if consumptions %}
+         <div class="container">
+            <div class="card">
+                {% for consumption in consumptions %}
+             <div class="card-holder">
+              <div class="text-holder">
+                    <p> Date: <span>{{ consumption.date}}</span> </p>
+                    <p> Consumption: <span>{{consumption.consumption}} kw/h</span> </p>
+                  </div>
+
+            </div>
+
+        {% endfor %}
+        {% else %}
+             <div class="container">
+                <p> No consumption </p>
+            </div>
+    {% endif %}
+      </div>
+        </div>
+
 {% endblock %}

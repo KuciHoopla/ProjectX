@@ -60,7 +60,8 @@ def filling_json(number_of_customers):
             address = fake.address()
             email = 'invoice.rpa.2020@gmail.com'
             # Automationproject2020
-            id = random.randrange(100, 999999)
+            random_num = random.randrange(100, 999999)
+            id = "sx16" + str(random_num)
             consumption = random.randrange(200, 2000)
             tariff = random.randrange(1, 5)
             face = faces[random.randrange(30)]

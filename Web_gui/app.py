@@ -7,10 +7,10 @@ from flask import session
 from flask import url_for
 
 from RPA.creators.database.database_creator import DatabaseConnection, database, get_all_database_customers, \
-    fake_face, insert_customer
-from RPA.creators.pdf.create_pdf import create_pdf
+    fake_face, insert_customer, fill_customer_database
 from RPA.creators.runners.web_function_wrapper import web_delete_all_files, \
     web_create_new_consumption, web_create_database
+from creators.database.id_table_creator import get_all_consumption_by_id
 
 flask_app = Flask(__name__)
 flask_app.secret_key = b'\x8eJ|P7\x8c\xe6X\xb3\x9c\xaf\x17C\xbaz\x17\xbb\xc81`_\xe3\xac\xc2'
@@ -23,7 +23,7 @@ def view_welcome_page():
 
 @flask_app.route("/admin/create_database")
 def view_create_database():
-    web_create_database(3)
+    fill_customer_database(10)
     return render_template("admin.jinja2")
 
 
@@ -47,14 +47,15 @@ def view_admin():
     return render_template("admin.jinja2", customers=customers)
 
 
-@flask_app.route("/admin/<int:id>/")
+@flask_app.route("/admin/<id>/")
 def view_customer(id):
     with DatabaseConnection(database) as connection:
         cursor = connection.cursor()
         cursor.execute('SELECT * FROM customers WHERE id=(?)', [id])
         customer = cursor.fetchone()
+        consumptions = get_all_consumption_by_id(id)
         if customer:
-            return render_template("customer.jinja2", customer=customer)
+            return render_template("customer.jinja2", customer=customer, consumptions=consumptions)
     return render_template("customer_not_found.jinja2", id=id)
 
 
@@ -86,7 +87,8 @@ def add_customer():
         if first_name != "" and last_name != "" and email != "":
             faces = fake_face()
             face = faces[random.randrange(30)]
-            id = random.randrange(100, 999999)
+            random_num = random.randrange(100, 999999)
+            id = "sx" + str(random_num)
             insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
             print(get_all_database_customers())
             with DatabaseConnection(database) as connection:

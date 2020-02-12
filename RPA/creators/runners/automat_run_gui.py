@@ -35,7 +35,6 @@ def automat_run():
     window.geometry('900x900')
     window.title("Invoice RPA")
     window.configure(background='#66b3ff')
-    btns_frame = Frame(window)
     style_of_buttons = Style()
     style_of_buttons.configure('W.TButton', width=23, relief=GROOVE, activebackground="Red", borderwidth='4')
 
