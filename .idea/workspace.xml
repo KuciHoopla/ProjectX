@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/faces_url.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/files_addressbook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-12-09-29-24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/customers/customers_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/customers/customers_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/customers.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/web_function_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/web_function_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/variables/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/variables/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/gmail_check/fake_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/gmail_check/fake_face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_gui/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_gui/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_gui/templates/customer.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/templates/customer.jinja2" afterDir="false" />
-    </list>
+    <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +211,7 @@
       <updated>1579523213549</updated>
       <workItem from="1580378832393" duration="89061000" />
       <workItem from="1580979598820" duration="24191000" />
-      <workItem from="1581414357174" duration="29720000" />
+      <workItem from="1581414357174" duration="29970000" />
     </task>
     <task id="LOCAL-00001" summary="28010930">
       <created>1580200259566</created>
@@ -316,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581490531779</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="021220200254">
+      <created>1581515691290</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581515691291</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +326,8 @@
     <MESSAGE value="02101056" />
     <MESSAGE value="02111038" />
     <MESSAGE value="021220200755" />
-    <option name="LAST_COMMIT_MESSAGE" value="021220200755" />
+    <MESSAGE value="021220200254" />
+    <option name="LAST_COMMIT_MESSAGE" value="021220200254" />
   </component>
   <component name="WindowStateProjectService">
     <state x="922" y="170" key="#Inspections" timestamp="1580462321929">
@@ -372,10 +361,10 @@
     </state>
     <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580456352301" />
     <state x="851" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579765900078" />
-    <state x="589" y="108" key="CommitChangelistDialog2" timestamp="1581490529924">
+    <state x="589" y="108" key="CommitChangelistDialog2" timestamp="1581515689613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581490529924" />
+    <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581515689613" />
     <state x="2509" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580474598451" />
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581067118246" />
     <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1581497804996">
