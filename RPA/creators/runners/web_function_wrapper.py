@@ -2,7 +2,7 @@ import os
 
 from RPA.creators.consumption.consumption_creator import create_new_consumption
 from RPA.creators.database.database_creator import create_customers_table, create_customers_file, customers_json, \
-    filling_json, fill_database_from_json, update_customer_consumption_from_json_data
+     fill_database_from_json, update_customer_consumption_from_json_data
 from RPA.creators.variables.variables import customers_database
 
 

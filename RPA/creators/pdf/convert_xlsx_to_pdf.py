@@ -1,5 +1,5 @@
 
-from RPA.creators.variables.variables import excel_path
+from RPA.creators.variables.variables import excel_path, pdfs_folder
 import pythoncom
 import win32com.client as client
 

@@ -8,6 +8,7 @@ from RPA.creators.database.database_invoices import get_all_invoices_numbers
 from RPA.creators.pdf.create_pdf import create_pdf
 from RPA.creators.variables.variables import printscreen
 from RPA.gmail_check.gmail_check import gmail_check
+from creators.database.id_table_creator import add_customers_consumption
 
 database_len_old = 0
 
@@ -130,6 +131,7 @@ ________________________________________________________________________
 
     window.after(10000, refresh)
 
+    add_customers_consumption()
     window.mainloop()
 
 

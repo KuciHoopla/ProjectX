@@ -34,6 +34,17 @@ main{
     padding: 0;
     font-size: 10px;
 }
+.consumption_data{
+    width: 100%;
+    background: #9fcdff;
+    margin: 5px;
+}
+
+.consumption_data p{
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 10px;
+}
 
 .card-holder{
     background: rgba(252, 252, 252, .5);
@@ -60,6 +71,26 @@ main{
     text-align: center;
     padding: 20px;
 }
+
+.customer_consumption_box{
+    width: 200px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.customer_info_box{
+    width: 40%;
+}
+
+.consumption_card, .consumption_container{
+    margin: 0;
+    width: 400px;
+}
+
+#customer_wrapper{
+    display: flex;
+}
+
 #header-wrapper{
     display: flex;
     justify-content: space-between;

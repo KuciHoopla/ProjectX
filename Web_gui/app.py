@@ -1,4 +1,5 @@
 import random
+
 from flask import Flask
 from flask import redirect
 from flask import render_template
@@ -7,10 +8,11 @@ from flask import session
 from flask import url_for
 
 from RPA.creators.database.database_creator import DatabaseConnection, database, get_all_database_customers, \
-    fake_face, insert_customer, fill_customer_database
-from RPA.creators.runners.web_function_wrapper import web_delete_all_files, \
-    web_create_new_consumption, web_create_database
-from creators.database.id_table_creator import get_all_consumption_by_id
+    insert_customer, fill_customer_database
+from RPA.creators.runners.web_function_wrapper import web_delete_all_files
+from creators.database.id_table_creator import get_all_consumption_by_id, fill_customers_consumption, \
+    add_consumption_to_one_customer, add_customers_consumption
+from gmail_check.fake_face import get_random_face_url
 
 flask_app = Flask(__name__)
 flask_app.secret_key = b'\x8eJ|P7\x8c\xe6X\xb3\x9c\xaf\x17C\xbaz\x17\xbb\xc81`_\xe3\xac\xc2'
@@ -24,6 +26,7 @@ def view_welcome_page():
 @flask_app.route("/admin/create_database")
 def view_create_database():
     fill_customer_database(10)
+    fill_customers_consumption()
     return render_template("admin.jinja2")
 
 
@@ -35,7 +38,7 @@ def view_delete_all_files():
 
 @flask_app.route("/admin/create_new_consumption")
 def view_create_new_consumption():
-    web_create_new_consumption()
+    add_customers_consumption()
     return render_template("admin.jinja2")
 
 
@@ -82,19 +85,20 @@ def add_customer():
         last_name = request.form["surname"]
         email = request.form["email"]
         address = request.form["address"]
-        consumption = int(request.form["consumption"])
         tariff = int(request.form["tariff"])
+        consumption = 0
         if first_name != "" and last_name != "" and email != "":
-            faces = fake_face()
-            face = faces[random.randrange(30)]
+            face = get_random_face_url()
             random_num = random.randrange(100, 999999)
             id = "sx" + str(random_num)
             insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
             print(get_all_database_customers())
+
             with DatabaseConnection(database) as connection:
                 cursor = connection.cursor()
                 cursor.execute('SELECT * FROM customers WHERE id=(?)', [id])
                 customer = cursor.fetchone()
+                add_consumption_to_one_customer(id)
                 if customer:
                     return render_template("customer.jinja2", customer=customer)
         else:

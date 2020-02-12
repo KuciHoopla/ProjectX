@@ -1,6 +1,11 @@
+import random
+
+import names
+
 from RPA.creators.customers.customers_creator import *
 from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
+from gmail_check.fake_face import get_random_face_url
 
 database = customers_database
 
@@ -87,7 +92,7 @@ def fill_database_from_json():
 
 def fill_customer_database(number_of_customers):
         i = 0
-        faces = fake_face()
+
         while i < number_of_customers:
             first_name = names.get_first_name()
             last_name = names.get_last_name()
@@ -98,7 +103,7 @@ def fill_customer_database(number_of_customers):
             id = "sx16" + str(random_num)
             consumption = random.randrange(200, 2000)
             tariff = random.randrange(1, 5)
-            face = faces[random.randrange(30)]
+            face = get_random_face_url()
             insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
             i += 1
 

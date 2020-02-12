@@ -113,3 +113,5 @@ def invoice_creator(id, first_name, last_name, address, consumption, tariff):
     worksheet.set_footer(footer)
     writer.close()
 
+
+

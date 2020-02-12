@@ -2,26 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1171.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1172.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1173.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1174.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1175.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/faces_url.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/files_addressbook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-12-09-29-24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/consumption/consumption_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/consumption/consumption_creator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPA/creators/customers/customers_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/customers/customers_creator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/customers.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers_file.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/invoices.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/invoices_numbers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/template.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/web_function_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/web_function_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/variables/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/variables/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/gmail_check/fake_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/gmail_check/fake_face.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_gui/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_gui/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_gui/templates/admin.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/templates/admin.jinja2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web_gui/templates/customer.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/templates/customer.jinja2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RPA/creators/database" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
@@ -81,14 +78,14 @@
       <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\InvoiceRPA\creators\database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources" />
       <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\photos" />
       <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\Web_gui\static\photos" />
       <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\Web_gui\static\js" />
       <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\Web_gui\static\css" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\Web_gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.id_table_creator">
+  <component name="RunManager" selected="Python.convert_xlsx_to_pdf">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="automat_run_gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="convert_xlsx_to_pdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,12 +116,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/runners" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/pdf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="automat_run_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="excel_invoice_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +138,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InvoiceRPA/creators/runners" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InvoiceRPA/creators/runners/automat_run_gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="database_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fake_face" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,12 +160,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/gmail_check" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/database/database_creator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/gmail_check/fake_face.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.convert_xlsx_to_pdf" />
+        <item itemvalue="Python.excel_invoice_creator" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.fake_face" />
         <item itemvalue="Python.id_table_creator" />
-        <item itemvalue="Python.database_creator" />
-        <item itemvalue="Python.automat_run_gui (1)" />
-        <item itemvalue="Python.automat_run_gui" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +230,7 @@
       <updated>1579523213549</updated>
       <workItem from="1580378832393" duration="89061000" />
       <workItem from="1580979598820" duration="24191000" />
-      <workItem from="1581414357174" duration="16758000" />
+      <workItem from="1581414357174" duration="29720000" />
     </task>
     <task id="LOCAL-00001" summary="28010930">
       <created>1580200259566</created>
@@ -312,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581413901886</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="021220200755">
+      <created>1581490531779</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581490531779</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +337,8 @@
     <MESSAGE value="02070930" />
     <MESSAGE value="02101056" />
     <MESSAGE value="02111038" />
-    <option name="LAST_COMMIT_MESSAGE" value="02111038" />
+    <MESSAGE value="021220200755" />
+    <option name="LAST_COMMIT_MESSAGE" value="021220200755" />
   </component>
   <component name="WindowStateProjectService">
     <state x="922" y="170" key="#Inspections" timestamp="1580462321929">
@@ -373,36 +378,36 @@
     <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581490529924" />
     <state x="2509" y="108" key="CommitChangelistDialog2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580474598451" />
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581067118246" />
-    <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1580392068005">
+    <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1581497804996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="846" y="289" key="FileChooserDialogImpl/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580392068005" />
+    <state x="846" y="289" key="FileChooserDialogImpl/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581497804996" />
     <state x="846" y="289" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580130184347" />
-    <state width="1348" height="238" key="GridCell.Tab.0.bottom" timestamp="1581433048825">
+    <state width="1342" height="238" key="GridCell.Tab.0.bottom" timestamp="1581515595827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1348" height="238" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581433048825" />
+    <state width="1342" height="238" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581515595827" />
     <state width="1131" height="257" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
     <state width="1152" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864633" />
-    <state width="1348" height="238" key="GridCell.Tab.0.center" timestamp="1581433048824">
+    <state width="1342" height="238" key="GridCell.Tab.0.center" timestamp="1581515595826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1348" height="238" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581433048824" />
+    <state width="1342" height="238" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581515595826" />
     <state width="1131" height="257" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
     <state width="1152" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
-    <state width="1348" height="238" key="GridCell.Tab.0.left" timestamp="1581433048824">
+    <state width="1342" height="238" key="GridCell.Tab.0.left" timestamp="1581515595826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1348" height="238" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581433048824" />
+    <state width="1342" height="238" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581515595826" />
     <state width="1131" height="257" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
     <state width="1152" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
-    <state width="1348" height="238" key="GridCell.Tab.0.right" timestamp="1581433048825">
+    <state width="1342" height="238" key="GridCell.Tab.0.right" timestamp="1581515595827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1348" height="238" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581433048825" />
+    <state width="1342" height="238" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581515595827" />
     <state width="1131" height="257" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
     <state width="1152" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581086376105" />
     <state width="1173" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
@@ -437,10 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580216393768" />
-    <state x="1930" y="89" width="902" height="788" key="dock-window-1" timestamp="1581416525778">
+    <state x="2419" y="112" width="902" height="788" key="dock-window-1" timestamp="1581500250063">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1930" y="89" width="902" height="788" key="dock-window-1/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581416525778" />
+    <state x="2419" y="112" width="902" height="788" key="dock-window-1/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581500250063" />
     <state x="332" y="52" width="1321" height="788" key="dock-window-1/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580396655634" />
     <state x="42" y="71" width="682" height="847" key="dock-window-2" timestamp="1580456714320">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -474,10 +479,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="418" y="73" width="798" height="804" key="dock-window-9/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580909049512" />
-    <state x="267" y="29" width="737" height="909" key="find.popup" timestamp="1580831804876">
+    <state x="267" y="29" width="737" height="909" key="find.popup" timestamp="1581494420516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="267" y="29" width="737" height="909" key="find.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580831804876" />
+    <state x="267" y="29" width="737" height="909" key="find.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581494420516" />
     <state x="2187" y="29" width="737" height="909" key="find.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580474281473" />
     <state x="917" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1581431979762">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -486,9 +491,12 @@
     <state x="917" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579769261617" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Project$id_table_creator.coverage" NAME="id_table_creator Coverage Results" MODIFIED="1581433036066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
-    <SUITE FILE_PATH="coverage/Project$app.coverage" NAME="app Coverage Results" MODIFIED="1581433048812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_gui" />
+    <SUITE FILE_PATH="coverage/Project$id_table_creator.coverage" NAME="id_table_creator Coverage Results" MODIFIED="1581499572414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
+    <SUITE FILE_PATH="coverage/Project$app.coverage" NAME="app Coverage Results" MODIFIED="1581513943842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_gui" />
     <SUITE FILE_PATH="coverage/Project$database_creator.coverage" NAME="database_creator Coverage Results" MODIFIED="1581431493810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
+    <SUITE FILE_PATH="coverage/Project$excel_invoice_creator.coverage" NAME="excel_invoice_creator Coverage Results" MODIFIED="1581514242604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/excel" />
     <SUITE FILE_PATH="coverage/Project$automat_run_gui__1_.coverage" NAME="automat_run_gui (1) Coverage Results" MODIFIED="1581414436004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
+    <SUITE FILE_PATH="coverage/Project$fake_face.coverage" NAME="fake_face Coverage Results" MODIFIED="1581513044076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/gmail_check" />
+    <SUITE FILE_PATH="coverage/Project$convert_xlsx_to_pdf.coverage" NAME="convert_xlsx_to_pdf Coverage Results" MODIFIED="1581515595815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/pdf" />
   </component>
 </project>

@@ -1,8 +1,10 @@
+import random
+
 from RPA.creators.customers.customers_creator import *
 from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
 from creators.database.database_creator import get_all_database_customers
-
+from datetime import datetime, timezone
 database = customers_database
 
 
@@ -42,16 +44,35 @@ def insert_consumption_to_customer(customer_id, consumption, date):
 def fill_customers_consumption():
     customers = get_all_database_customers()
     i = 0
-    j = 1
     for customer in customers:
         id = customer["id"]
         i+=1
+        j = 1
         for x in range(12):
             month = j
-            date =  f"{month}-01-2019"
+            date = f"{month}-01-2019"
             consumption = random.randrange(200, 2000)
             insert_consumption_to_customer(id, consumption, date)
-            j+=1
+            j += 1
 
 
-fill_customers_consumption()
+def add_customers_consumption():
+    customers = get_all_database_customers()
+    stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M')
+    print(stamp)
+    for customer in customers:
+        id = customer["id"]
+        consumption = random.randrange(200, 2000)
+        insert_consumption_to_customer(id, consumption, stamp)
+
+
+def add_consumption_to_one_customer(id):
+    j = 1
+    for x in range(12):
+        month = j
+        date = f"{month}-01-2019"
+        consumption = random.randrange(200, 2000)
+        insert_consumption_to_customer(id, consumption, date)
+        j += 1
+
+

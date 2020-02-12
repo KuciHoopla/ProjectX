@@ -4,6 +4,8 @@
 
 
 {% block main %}
+    <div id="customer_wrapper">
+    <div class="customer_info_box">
     {% if customer %}
         <div class="container">
             <div class="card">
@@ -17,18 +19,17 @@
             </div>
          </div>
             {% else %}
-        <p> No Customers :( </p>
-    {% endif %}
+            <p> No Customers :( </p>
+            {% endif %}
+        </div>
+
+        <div class="customer_consumption_box">
         {% if consumptions %}
-         <div class="container">
-            <div class="card">
                 {% for consumption in consumptions %}
-             <div class="card-holder">
-              <div class="text-holder">
+                    <div class="consumption_container">
+                    <div class="consumption_data">
                     <p> Date: <span>{{ consumption.date}}</span> </p>
                     <p> Consumption: <span>{{consumption.consumption}} kw/h</span> </p>
-                  </div>
-
             </div>
 
         {% endfor %}
@@ -39,5 +40,6 @@
     {% endif %}
       </div>
         </div>
-
+        </div>
+    </div>
 {% endblock %}

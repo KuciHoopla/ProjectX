@@ -15,7 +15,7 @@ pdfs_folder = f'{resources_folder}\\pdfs'
 new_consumption_folder = f'{resources_folder}\\new_consumption'
 chromedriver_path = f'{resources_folder}\\chromedriver\\chromedriver.exe'
 
-
+faces_urls = f'{resources_folder}\\faces_url.json'
 customers_json = f'{resources_folder}\\customers_file.json'
 files_addressbook = f'{resources_folder}\\files_addressbook.json'
 consumption_json = f'{new_consumption_folder}\\consumption-{date}.json'

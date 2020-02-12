@@ -1,11 +1,9 @@
 import json
-import names
-from faker import Faker
-from faker.generator import random
 from pathlib import Path
 
+from faker import Faker
+
 from RPA.creators.variables.variables import customers_json, files_addressbook
-from RPA.gmail_check.fake_face import fake_face
 
 fake = Faker()
 
@@ -50,23 +48,23 @@ def insert_customers(id, name, last_name, address, email, consumption, tariff,fa
     _save_all(customers_json, customers)
 
 
-def filling_json(number_of_customers):
-    if len(get_all_json_customers()) < 1:
-        i = 0
-        faces = fake_face()
-        while i < number_of_customers:
-            first_name = names.get_first_name()
-            last_name = names.get_last_name()
-            address = fake.address()
-            email = 'invoice.rpa.2020@gmail.com'
-            # Automationproject2020
-            random_num = random.randrange(100, 999999)
-            id = "sx16" + str(random_num)
-            consumption = random.randrange(200, 2000)
-            tariff = random.randrange(1, 5)
-            face = faces[random.randrange(30)]
-            insert_customers(id, first_name, last_name, address, email, consumption, tariff, face)
-            i += 1
+# def filling_json(number_of_customers):
+#     if len(get_all_json_customers()) < 1:
+#         i = 0
+#         faces = fake_face()
+#         while i < number_of_customers:
+#             first_name = names.get_first_name()
+#             last_name = names.get_last_name()
+#             address = fake.address()
+#             email = 'invoice.rpa.2020@gmail.com'
+#             # Automationproject2020
+#             random_num = random.randrange(100, 999999)
+#             id = "sx16" + str(random_num)
+#             consumption = random.randrange(200, 2000)
+#             tariff = random.randrange(1, 5)
+#             face = faces[random.randrange(30)]
+#             insert_customers(id, first_name, last_name, address, email, consumption, tariff, face)
+#             i += 1
 
 
 def add_file_name_to_addressbook(last_file_name):
