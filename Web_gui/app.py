@@ -10,6 +10,7 @@ from flask import url_for
 from RPA.creators.database.database_creator import DatabaseConnection, database, get_all_database_customers, \
     insert_customer, fill_customer_database
 from RPA.creators.runners.web_function_wrapper import web_delete_all_files
+from creators.consumption.consumption_creator import create_json_of_new_consumption
 from creators.database.id_table_creator import get_all_consumption_by_id, fill_customers_consumption, \
     add_consumption_to_one_customer, add_customers_consumption
 from gmail_check.fake_face import get_random_face_url
@@ -25,7 +26,7 @@ def view_welcome_page():
 
 @flask_app.route("/admin/create_database")
 def view_create_database():
-    fill_customer_database(10)
+    fill_customer_database(3)
     fill_customers_consumption()
     return render_template("admin.jinja2")
 
@@ -39,6 +40,7 @@ def view_delete_all_files():
 @flask_app.route("/admin/create_new_consumption")
 def view_create_new_consumption():
     add_customers_consumption()
+    create_json_of_new_consumption()
     return render_template("admin.jinja2")
 
 

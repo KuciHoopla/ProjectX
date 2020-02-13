@@ -8,6 +8,7 @@ from RPA.creators.database.database_invoices import get_all_invoices_numbers
 from RPA.creators.pdf.create_pdf import create_pdf
 from RPA.creators.variables.variables import printscreen
 from RPA.gmail_check.gmail_check import gmail_check
+from creators.consumption.consumption_creator import get_json_with_new_consumption
 from creators.database.id_table_creator import add_customers_consumption
 from creators.directory_check.directory_check import get_list_of_jsons
 
@@ -113,6 +114,7 @@ ________________________________________________________________________
 
     def refresh():
         global jsons_directory_len_old
+
         jsons_directory_len = get_list_of_jsons()
         customers_frame.delete(1.0, END)
         invoices_frame.delete(1.0, END)
@@ -127,13 +129,11 @@ ________________________________________________________________________
             print("no new data")
             print(get_all_database_customers())
             print(get_all_database_customers())
-
         window.after(10000, refresh)
 
     window.after(10000, refresh)
 
     window.mainloop()
-
 
 automat_run()
 

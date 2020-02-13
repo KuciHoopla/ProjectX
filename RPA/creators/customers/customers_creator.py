@@ -34,7 +34,7 @@ def _save_all(file, customers):
         json.dump(customers, file)
 
 
-def insert_customers(id, name, last_name, address, email, consumption, tariff,face):
+def insert_customers(id, name, last_name, address, email, consumption, tariff, face):
     customers = get_all_json_customers()
     customers.append({
         "id": id,

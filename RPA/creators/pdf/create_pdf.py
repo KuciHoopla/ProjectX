@@ -4,19 +4,23 @@ from RPA.creators.excel.excel_invoice_creator import invoice_creator
 from RPA.creators.pdf.convert_xlsx_to_pdf import convert_xlsx_to_pdf
 from RPA.mail.send_mail import send_mail
 from RPA.creators.variables.variables import pdfs_folder
+from creators.consumption.consumption_creator import get_json_with_new_consumption
 from creators.database.id_table_creator import get_all_consumption_by_id
+from creators.directory_check.directory_check import get_list_of_jsons
 
 
 def create_pdf():
+    json_path = get_list_of_jsons()[-1]
+    data_from_json_with_new_consumption = get_json_with_new_consumption(json_path)
     global counter
     counter = 1000
-    customers = get_all_database_customers()
+    customers = data_from_json_with_new_consumption
     for customer in customers:
         id = customer["id"]
         first_name = customer["first_name"]
         last_name = customer["last_name"]
         address = customer["address"]
-        consumption = get_all_consumption_by_id(id)[-1]["consumption"]
+        consumption = customer["consumption"]
         tariff = customer["tariff"]
         email = customer["email"]
         try:
