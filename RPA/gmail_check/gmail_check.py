@@ -7,7 +7,6 @@ from RPA.creators.variables.variables import chromedriver_path, printscreen
 
 def gmail_check():
     driver = webdriver.Chrome(chromedriver_path)
-
     driver.get('https://mail.google.com/')
     driver.find_element_by_id("identifierId").send_keys("invoice.rpa.2020@gmail.com")
     driver.find_element_by_id("identifierNext").click()

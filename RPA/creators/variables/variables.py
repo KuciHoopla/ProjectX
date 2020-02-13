@@ -12,6 +12,7 @@ photos_folder = f'{resources_folder}\\photos'
 
 excel_path = f'{resources_folder}\\template.xlsx'
 pdfs_folder = f'{resources_folder}\\pdfs'
+jsons_folder = f'{resources_folder}\\jsons'
 new_consumption_folder = f'{resources_folder}\\new_consumption'
 chromedriver_path = f'{resources_folder}\\chromedriver\\chromedriver.exe'
 

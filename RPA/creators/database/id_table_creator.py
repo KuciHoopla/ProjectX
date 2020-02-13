@@ -1,6 +1,4 @@
 import random
-
-from RPA.creators.customers.customers_creator import *
 from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
 from creators.database.database_creator import get_all_database_customers

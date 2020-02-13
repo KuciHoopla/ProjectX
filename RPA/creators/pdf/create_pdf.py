@@ -4,6 +4,7 @@ from RPA.creators.excel.excel_invoice_creator import invoice_creator
 from RPA.creators.pdf.convert_xlsx_to_pdf import convert_xlsx_to_pdf
 from RPA.mail.send_mail import send_mail
 from RPA.creators.variables.variables import pdfs_folder
+from creators.database.id_table_creator import get_all_consumption_by_id
 
 
 def create_pdf():
@@ -15,7 +16,7 @@ def create_pdf():
         first_name = customer["first_name"]
         last_name = customer["last_name"]
         address = customer["address"]
-        consumption = customer["consumption"]
+        consumption = get_all_consumption_by_id(id)[-1]["consumption"]
         tariff = customer["tariff"]
         email = customer["email"]
         try:
@@ -34,3 +35,4 @@ def create_pdf():
         add_invoice_number(number)
 
 
+create_pdf()
