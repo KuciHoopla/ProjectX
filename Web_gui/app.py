@@ -26,7 +26,7 @@ def view_welcome_page():
 
 @flask_app.route("/admin/create_database")
 def view_create_database():
-    fill_customer_database(3)
+    fill_customer_database(1)
     fill_customers_consumption()
     return render_template("admin.jinja2")
 

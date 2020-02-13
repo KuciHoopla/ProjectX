@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import messagebox
 from tkinter.scrolledtext import ScrolledText
 from tkinter.ttk import *
-from BkgrFrame import BkgrFrame
+from creators.runners.BkgrFrame import BkgrFrame
 from RPA.creators.consumption.consumption_creator import create_new_consumption
 from RPA.creators.customers.customers_creator import create_customers_file, customers_json, filling_json, \
     get_all_json_customers

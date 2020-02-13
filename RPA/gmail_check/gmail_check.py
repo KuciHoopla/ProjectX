@@ -11,7 +11,7 @@ def gmail_check():
     driver.find_element_by_id("identifierId").send_keys("invoice.rpa.2020@gmail.com")
     driver.find_element_by_id("identifierNext").click()
     driver.implicitly_wait(10)
-    driver.find_element_by_class_name("A37UZe").click()
+    driver.find_element_by_class_name("MQL3Ob").click()
     driver.find_element_by_class_name("whsOnd").send_keys("Automationproject2020")
     driver.find_element_by_id("passwordNext").click()
     time.sleep(3)
@@ -19,6 +19,6 @@ def gmail_check():
     # Image.open(printscreen).show()
     driver.find_element_by_class_name("T-Jo").click()
     driver.find_element_by_class_name("asa").click()
-    time.sleep(3)
+    time.sleep(5)
     driver.close()
 

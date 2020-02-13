@@ -37,11 +37,13 @@ def add_invoice_number(number):
 
 
 def get_all_invoices_numbers():
-    with open(invoices_number_path, 'r') as file:
-        lines = file.read()
+    try:
+        with open(invoices_number_path, 'r') as file:
+            lines = file.read()
 
-    return lines
-
+        return lines
+    except:
+        print("no invoices")
 
 
 

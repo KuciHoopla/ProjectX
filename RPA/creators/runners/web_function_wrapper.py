@@ -1,29 +1,43 @@
 import os
-
-from RPA.creators.consumption.consumption_creator import create_new_consumption
-from RPA.creators.database.database_creator import create_customers_table, create_customers_file, customers_json, \
-     fill_database_from_json, update_customer_consumption_from_json_data
-from RPA.creators.variables.variables import customers_database
-
-
-def web_create_database(customers):
-    create_customers_table()
-    create_customers_file(customers_json)
-    filling_json(customers)
-    fill_database_from_json()
+from RPA.creators.variables.variables import customers_database, resources_folder
+from shutil import rmtree
 
 
 def web_delete_all_files():
     try:
         os.remove(customers_database)
-        os.remove(customers_json)
     except:
-        print("no database")
+        print("web delete all files fail = no database")
+
+    try:
+        os.remove(f"{resources_folder}\\template.xlsx")
+    except:
+        print("web delete all files fail = no template.xlsx")
+
+    try:
+        os.remove(f"{resources_folder}\\invoices_numbers.txt")
+    except:
+        print("web delete all files fail = no invoices_numbers.txt")
+
+    try:
+        os.remove(f"{resources_folder}\\invoices.txt")
+    except:
+        print("web delete all files fail = no invoices.txt")
+
+    try:
+        os.remove(f"{resources_folder}\\photos\\printscreen.png")
+    except:
+        print("web delete all files fail = no printscreen.png")
+
+    try:
+        rmtree(f"{resources_folder}\\jsons")
+        os.mkdir(f"{resources_folder}\\jsons")
+    except:
+        print("web delete all files fail = ")
 
 
-def web_create_new_consumption():
-    create_new_consumption(),
-    update_customer_consumption_from_json_data()
+
+
 
 
 

@@ -16,7 +16,7 @@ class BkgrFrame(tk.Frame):
             self.img = ImageTk.PhotoImage(pil_img.resize((width, height), Image.ANTIALIAS))
             self.bg = self.canvas.create_image(0, 0, anchor=tk.NW, image=self.img)
         except:
-            print("no printscreen")
+            pass
 
 
     def add(self, widget, x, y):
@@ -25,6 +25,5 @@ class BkgrFrame(tk.Frame):
 
 
 if __name__ == '__main__':
-
 
     tk.mainloop()

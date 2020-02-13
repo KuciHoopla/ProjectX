@@ -1,16 +1,18 @@
+import os
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText
 from tkinter.ttk import *
-
-from BkgrFrame import BkgrFrame
+from datetime import datetime, timezone
+from creators.runners.BkgrFrame import BkgrFrame
 from RPA.creators.database.database_creator import get_all_database_customers
 from RPA.creators.database.database_invoices import get_all_invoices_numbers
 from RPA.creators.pdf.create_pdf import create_pdf
-from RPA.creators.variables.variables import printscreen
+from RPA.creators.variables.variables import printscreen, jsons_folder, resources_folder
 from RPA.gmail_check.gmail_check import gmail_check
 from creators.consumption.consumption_creator import get_json_with_new_consumption
-from creators.database.id_table_creator import add_customers_consumption
 from creators.directory_check.directory_check import get_list_of_jsons
+from tkscrolledframe import ScrolledFrame
+
 
 jsons_directory_len_old = 0
 
@@ -41,9 +43,6 @@ def automat_run():
     style_of_buttons = Style()
     style_of_buttons.configure('W.TButton', width=23, relief=GROOVE, activebackground="Red", borderwidth='4')
 
-    def fill_printscreen_frame():
-        bkrgframe = BkgrFrame(window, printscreen, 700, 600)
-        bkrgframe.pack()
 
     def fill_invoices_numbers_table():
         invoices_frame.insert(INSERT,
@@ -71,7 +70,9 @@ ________________________________________________________________________
             """)
 
         try:
-            customers = get_all_database_customers()
+            json_path = get_list_of_jsons()[-1]
+            data_from_json_with_new_consumption = get_json_with_new_consumption(f"{jsons_folder}\\{json_path}")
+            customers = data_from_json_with_new_consumption
             for customer in customers:
                 id = customer["id"]
                 first_name = customer["first_name"]
@@ -106,34 +107,49 @@ ________________________________________________________________________
         height=10
     )
 
+    printscreen_frame = ScrolledFrame(window)
+    printscreen_frame.bind_arrow_keys(window)
+    printscreen_frame.bind_scroll_wheel(window)
+    inner_frame = printscreen_frame.display_widget(Frame)
+
     customer_table_label.pack()
     customers_frame.pack()
     invoices_label.pack()
     invoices_frame.pack()
     printscreen_label.pack()
+    printscreen_frame.pack(side="bottom", expand=1, fill="both")
 
     def refresh():
         global jsons_directory_len_old
-
-        jsons_directory_len = get_list_of_jsons()
+        jsons_directory_len = len(get_list_of_jsons())
         customers_frame.delete(1.0, END)
         invoices_frame.delete(1.0, END)
         get_data_to_frame()
         fill_invoices_numbers_table()
-        fill_printscreen_frame()
+        try:
+            os.remove(f"{resources_folder}\\photos\\printscreen.png")
+        except:
+            pass
         if jsons_directory_len > jsons_directory_len_old:
             create_pdf()
-            # gmail_check()
+            gmail_check()
+            bkrgframe = BkgrFrame(inner_frame, printscreen, 800, 600)
+            bkrgframe.grid()
             jsons_directory_len_old = jsons_directory_len
         else:
-            print("no new data")
-            print(get_all_database_customers())
-            print(get_all_database_customers())
-        window.after(10000, refresh)
+            print(
+f"""
+__________________________________________________________________
+checked: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')}
+no new consumption detected
 
-    window.after(10000, refresh)
+                    """)
 
+        window.after(3000, refresh)
+
+    window.after(3000, refresh)
     window.mainloop()
+
 
 automat_run()
 
