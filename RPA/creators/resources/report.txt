@@ -1,0 +1,899 @@
+2020-02-14 14:41:00
+no data detected to fill customer frame
+2020-02-14 14:41:00
+checked for new consumption
+2020-02-14 14:41:03
+no data detected to fill customer frame
+2020-02-14 14:41:03
+checked for new consumption
+2020-02-14 14:41:06
+no data detected to fill customer frame
+2020-02-14 14:41:06
+checked for new consumption
+2020-02-14 14:41:09
+no data detected to fill customer frame
+2020-02-14 14:41:09
+checked for new consumption
+2020-02-14 14:41:12
+personalised table createdsx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:12
+database created by click on website
+2020-02-14 14:41:12
+no data detected to fill customer frame
+2020-02-14 14:41:12
+checked for new consumption
+2020-02-14 14:41:14
+consumption inserted to customer: sx16415984
+2020-02-14 14:41:14
+consumption created from website
+2020-02-14 14:41:15
+checked for new consumption
+2020-02-14 14:41:18
+checked for new consumption
+2020-02-14 14:41:21
+checked for new consumption
+2020-02-14 14:41:24
+checked for new consumption
+2020-02-14 14:41:27
+checked for new consumption
+2020-02-14 14:41:28
+personalised table createdsx16415984
+2020-02-14 14:41:28
+consumption created from website
+2020-02-14 14:41:30
+checked for new consumption
+2020-02-14 14:41:33
+checked for new consumption
+2020-02-14 14:41:36
+checked for new consumption
+2020-02-14 14:41:39
+checked for new consumption
+2020-02-14 14:41:42
+checked for new consumption
+2020-02-14 14:41:45
+checked for new consumption
+2020-02-14 14:41:48
+checked for new consumption
+2020-02-14 14:41:51
+checked for new consumption
+2020-02-14 14:41:54
+checked for new consumption
+2020-02-14 14:41:57
+checked for new consumption
+2020-02-14 14:42:00
+checked for new consumption
+2020-02-14 14:42:03
+checked for new consumption
+2020-02-14 14:42:06
+checked for new consumption
+2020-02-14 14:42:09
+checked for new consumption
+2020-02-14 14:42:12
+checked for new consumption
+2020-02-14 14:42:15
+checked for new consumption
+2020-02-14 14:42:18
+checked for new consumption
+2020-02-14 14:42:21
+checked for new consumption
+2020-02-14 14:42:24
+checked for new consumption
+2020-02-14 14:42:27
+checked for new consumption
+2020-02-14 14:42:30
+checked for new consumption
+2020-02-14 14:42:33
+checked for new consumption
+2020-02-14 14:42:36
+checked for new consumption
+2020-02-14 14:42:39
+checked for new consumption
+2020-02-14 14:42:42
+checked for new consumption
+2020-02-14 14:42:45
+checked for new consumption
+2020-02-14 14:42:48
+checked for new consumption
+2020-02-14 14:42:51
+checked for new consumption
+2020-02-14 14:42:54
+checked for new consumption
+2020-02-14 14:42:57
+checked for new consumption
+2020-02-14 14:43:00
+checked for new consumption
+2020-02-14 14:43:03
+checked for new consumption
+2020-02-14 14:43:06
+checked for new consumption
+2020-02-14 14:43:09
+checked for new consumption
+2020-02-14 14:43:12
+checked for new consumption
+2020-02-14 14:43:15
+checked for new consumption
+2020-02-14 14:43:18
+checked for new consumption
+2020-02-14 14:43:21
+checked for new consumption
+2020-02-14 14:43:24
+checked for new consumption
+2020-02-14 14:43:26
+consumption inserted to customer: sx16415984
+2020-02-14 14:43:26
+consumption created from website
+2020-02-14 14:43:27
+new consumption detected
+2020-02-14 14:43:27
+xlsx file was created with 1 sheets 
+2020-02-14 14:43:28
+server connected
+2020-02-14 14:43:31
+Invoice no. 2020-1000 was created
+2020-02-14 14:43:31
+Email with invoice no. 2020-1000 sent
+2020-02-14 14:43:33
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:43:41
+problem to check gmail
+2020-02-14 14:43:44
+checked for new consumption
+2020-02-14 14:43:47
+checked for new consumption
+2020-02-14 14:43:50
+checked for new consumption
+2020-02-14 14:43:53
+checked for new consumption
+2020-02-14 14:43:56
+checked for new consumption
+2020-02-14 14:43:59
+checked for new consumption
+2020-02-14 14:44:02
+checked for new consumption
+2020-02-14 14:44:05
+checked for new consumption
+2020-02-14 14:44:08
+checked for new consumption
+2020-02-14 14:44:11
+checked for new consumption
+2020-02-14 14:44:14
+checked for new consumption
+2020-02-14 14:44:17
+checked for new consumption
+2020-02-14 14:44:21
+new consumption detected
+2020-02-14 14:44:21
+xlsx file was created with 1 sheets 
+2020-02-14 14:44:21
+server connected
+2020-02-14 14:44:24
+Invoice no. 2020-1001 was created
+2020-02-14 14:44:24
+Email with invoice no. 2020-1001 sent
+2020-02-14 14:44:26
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:44:47
+checked for new consumption
+2020-02-14 14:44:50
+checked for new consumption
+2020-02-14 14:44:53
+checked for new consumption
+2020-02-14 14:45:00
+new consumption detected
+2020-02-14 14:45:00
+xlsx file was created with 1 sheets 
+2020-02-14 14:45:00
+server connected
+2020-02-14 14:45:03
+Invoice no. 2020-1002 was created
+2020-02-14 14:45:03
+Email with invoice no. 2020-1002 sent
+2020-02-14 14:45:05
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:45:10
+problem to check gmail
+2020-02-14 14:45:13
+checked for new consumption
+2020-02-14 14:45:16
+checked for new consumption
+2020-02-14 14:45:19
+checked for new consumption
+2020-02-14 14:45:22
+checked for new consumption
+2020-02-14 14:45:25
+checked for new consumption
+2020-02-14 14:45:28
+checked for new consumption
+2020-02-14 14:45:31
+checked for new consumption
+2020-02-14 14:45:34
+checked for new consumption
+2020-02-14 14:45:37
+checked for new consumption
+2020-02-14 14:45:40
+checked for new consumption
+2020-02-14 14:45:43
+checked for new consumption
+2020-02-14 14:45:46
+checked for new consumption
+2020-02-14 14:45:49
+checked for new consumption
+2020-02-14 14:45:52
+checked for new consumption
+2020-02-14 14:45:55
+checked for new consumption
+2020-02-14 14:45:58
+checked for new consumption
+2020-02-14 14:46:01
+checked for new consumption
+2020-02-14 14:46:05
+checked for new consumption
+2020-02-14 14:46:08
+checked for new consumption
+2020-02-14 14:46:11
+checked for new consumption
+2020-02-14 14:46:14
+checked for new consumption
+2020-02-14 14:46:17
+checked for new consumption
+2020-02-14 14:46:20
+checked for new consumption
+2020-02-14 14:46:23
+checked for new consumption
+2020-02-14 14:46:26
+checked for new consumption
+2020-02-14 14:46:29
+checked for new consumption
+2020-02-14 14:46:32
+checked for new consumption
+2020-02-14 14:46:35
+checked for new consumption
+2020-02-14 14:46:38
+checked for new consumption
+2020-02-14 14:46:41
+checked for new consumption
+2020-02-14 14:46:44
+checked for new consumption
+2020-02-14 14:46:47
+checked for new consumption
+2020-02-14 14:46:50
+checked for new consumption
+2020-02-14 14:46:53
+checked for new consumption
+2020-02-14 14:46:56
+checked for new consumption
+2020-02-14 14:46:59
+checked for new consumption
+2020-02-14 14:47:02
+checked for new consumption
+2020-02-14 14:47:05
+checked for new consumption
+2020-02-14 14:47:08
+checked for new consumption
+2020-02-14 14:47:11
+checked for new consumption
+2020-02-14 14:47:14
+checked for new consumption
+2020-02-14 14:47:17
+checked for new consumption
+2020-02-14 14:47:20
+checked for new consumption
+2020-02-14 14:47:23
+checked for new consumption
+2020-02-14 14:47:26
+checked for new consumption
+2020-02-14 14:47:29
+checked for new consumption
+2020-02-14 14:47:32
+checked for new consumption
+2020-02-14 14:47:35
+checked for new consumption
+2020-02-14 14:47:38
+checked for new consumption
+2020-02-14 14:47:41
+checked for new consumption
+2020-02-14 14:47:44
+checked for new consumption
+2020-02-14 14:47:47
+checked for new consumption
+2020-02-14 14:47:50
+checked for new consumption
+2020-02-14 14:47:53
+checked for new consumption
+2020-02-14 14:47:56
+checked for new consumption
+2020-02-14 14:47:59
+checked for new consumption
+2020-02-14 14:48:02
+checked for new consumption
+2020-02-14 14:48:05
+checked for new consumption
+2020-02-14 14:48:08
+checked for new consumption
+2020-02-14 14:48:11
+checked for new consumption
+2020-02-14 14:48:14
+checked for new consumption
+2020-02-14 14:48:17
+checked for new consumption
+2020-02-14 14:48:20
+checked for new consumption
+2020-02-14 14:48:23
+checked for new consumption
+2020-02-14 14:48:26
+checked for new consumption
+2020-02-14 14:48:29
+checked for new consumption
+2020-02-14 14:48:32
+checked for new consumption
+2020-02-14 14:48:35
+checked for new consumption
+2020-02-14 14:48:38
+checked for new consumption
+2020-02-14 14:48:44
+new consumption detected
+2020-02-14 14:48:44
+xlsx file was created with 1 sheets 
+2020-02-14 14:48:45
+server connected
+2020-02-14 14:48:48
+Invoice no. 2020-1003 was created
+2020-02-14 14:48:48
+Email with invoice no. 2020-1003 sent
+2020-02-14 14:48:49
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:48:55
+problem to check gmail
+2020-02-14 14:48:58
+checked for new consumption
+2020-02-14 14:49:01
+checked for new consumption
+2020-02-14 14:49:04
+checked for new consumption
+2020-02-14 14:49:07
+checked for new consumption
+2020-02-14 14:49:10
+checked for new consumption
+2020-02-14 14:49:13
+checked for new consumption
+2020-02-14 14:49:16
+checked for new consumption
+2020-02-14 14:49:19
+checked for new consumption
+2020-02-14 14:49:22
+checked for new consumption
+2020-02-14 14:49:25
+checked for new consumption
+2020-02-14 14:49:28
+checked for new consumption
+2020-02-14 14:49:31
+checked for new consumption
+2020-02-14 14:49:34
+checked for new consumption
+2020-02-14 14:49:37
+checked for new consumption
+2020-02-14 14:49:40
+checked for new consumption
+2020-02-14 14:49:43
+checked for new consumption
+2020-02-14 14:49:46
+checked for new consumption
+2020-02-14 14:49:49
+checked for new consumption
+2020-02-14 14:49:52
+checked for new consumption
+2020-02-14 14:49:55
+checked for new consumption
+2020-02-14 14:49:58
+checked for new consumption
+2020-02-14 14:50:01
+checked for new consumption
+2020-02-14 14:50:04
+checked for new consumption
+2020-02-14 14:50:07
+checked for new consumption
+2020-02-14 14:50:10
+checked for new consumption
+2020-02-14 14:50:13
+checked for new consumption
+2020-02-14 14:50:16
+checked for new consumption
+2020-02-14 14:50:19
+checked for new consumption
+2020-02-14 14:50:22
+checked for new consumption
+2020-02-14 14:50:25
+checked for new consumption
+2020-02-14 14:50:32
+new consumption detected
+2020-02-14 14:50:32
+xlsx file was created with 1 sheets 
+2020-02-14 14:50:32
+server connected
+2020-02-14 14:50:35
+Invoice no. 2020-1004 was created
+2020-02-14 14:50:35
+Email with invoice no. 2020-1004 sent
+2020-02-14 14:50:36
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:50:42
+problem to check gmail
+2020-02-14 14:50:45
+checked for new consumption
+2020-02-14 14:50:48
+checked for new consumption
+2020-02-14 14:50:51
+checked for new consumption
+2020-02-14 14:50:54
+checked for new consumption
+2020-02-14 14:50:57
+checked for new consumption
+2020-02-14 14:51:00
+checked for new consumption
+2020-02-14 14:51:03
+checked for new consumption
+2020-02-14 14:51:06
+checked for new consumption
+2020-02-14 14:51:09
+checked for new consumption
+2020-02-14 14:51:12
+checked for new consumption
+2020-02-14 14:51:15
+checked for new consumption
+2020-02-14 14:51:18
+checked for new consumption
+2020-02-14 14:51:21
+checked for new consumption
+2020-02-14 14:51:27
+new consumption detected
+2020-02-14 14:51:27
+xlsx file was created with 1 sheets 
+2020-02-14 14:51:28
+server connected
+2020-02-14 14:51:30
+Invoice no. 2020-1005 was created
+2020-02-14 14:51:30
+Email with invoice no. 2020-1005 sent
+2020-02-14 14:51:32
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:51:38
+problem to check gmail
+2020-02-14 14:51:41
+checked for new consumption
+2020-02-14 14:51:44
+checked for new consumption
+2020-02-14 14:51:47
+checked for new consumption
+2020-02-14 14:51:50
+checked for new consumption
+2020-02-14 14:51:53
+checked for new consumption
+2020-02-14 14:51:56
+checked for new consumption
+2020-02-14 14:51:59
+checked for new consumption
+2020-02-14 14:52:02
+checked for new consumption
+2020-02-14 14:52:05
+checked for new consumption
+2020-02-14 14:52:08
+checked for new consumption
+2020-02-14 14:52:11
+checked for new consumption
+2020-02-14 14:52:14
+checked for new consumption
+2020-02-14 14:52:17
+checked for new consumption
+2020-02-14 14:52:20
+checked for new consumption
+2020-02-14 14:52:23
+checked for new consumption
+2020-02-14 14:52:26
+checked for new consumption
+2020-02-14 14:52:29
+checked for new consumption
+2020-02-14 14:52:32
+checked for new consumption
+2020-02-14 14:52:35
+checked for new consumption
+2020-02-14 14:52:38
+checked for new consumption
+2020-02-14 14:52:41
+checked for new consumption
+2020-02-14 14:52:44
+checked for new consumption
+2020-02-14 14:52:48
+new consumption detected
+2020-02-14 14:52:48
+xlsx file was created with 1 sheets 
+2020-02-14 14:52:48
+server connected
+2020-02-14 14:52:51
+Invoice no. 2020-1006 was created
+2020-02-14 14:52:51
+Email with invoice no. 2020-1006 sent
+2020-02-14 14:52:53
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:52:59
+problem to check gmail
+2020-02-14 14:53:02
+checked for new consumption
+2020-02-14 14:53:05
+checked for new consumption
+2020-02-14 14:53:08
+checked for new consumption
+2020-02-14 14:53:11
+checked for new consumption
+2020-02-14 14:53:14
+checked for new consumption
+2020-02-14 14:53:17
+checked for new consumption
+2020-02-14 14:53:20
+checked for new consumption
+2020-02-14 14:53:23
+checked for new consumption
+2020-02-14 14:53:26
+checked for new consumption
+2020-02-14 14:53:29
+checked for new consumption
+2020-02-14 14:53:32
+checked for new consumption
+2020-02-14 14:53:35
+checked for new consumption
+2020-02-14 14:53:38
+checked for new consumption
+2020-02-14 14:53:41
+checked for new consumption
+2020-02-14 14:53:44
+checked for new consumption
+2020-02-14 14:53:49
+new consumption detected
+2020-02-14 14:53:49
+xlsx file was created with 1 sheets 
+2020-02-14 14:53:50
+server connected
+2020-02-14 14:53:53
+Invoice no. 2020-1007 was created
+2020-02-14 14:53:53
+Email with invoice no. 2020-1007 sent
+2020-02-14 14:53:54
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:54:00
+problem to check gmail
+2020-02-14 14:54:03
+checked for new consumption
+2020-02-14 14:54:06
+checked for new consumption
+2020-02-14 14:54:09
+checked for new consumption
+2020-02-14 14:54:12
+checked for new consumption
+2020-02-14 14:54:15
+checked for new consumption
+2020-02-14 14:54:18
+checked for new consumption
+2020-02-14 14:54:21
+checked for new consumption
+2020-02-14 14:54:24
+checked for new consumption
+2020-02-14 14:54:30
+new consumption detected
+2020-02-14 14:54:30
+xlsx file was created with 1 sheets 
+2020-02-14 14:54:31
+server connected
+2020-02-14 14:54:34
+Invoice no. 2020-1008 was created
+2020-02-14 14:54:34
+Email with invoice no. 2020-1008 sent
+2020-02-14 14:54:35
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:54:57
+checked for new consumption
+2020-02-14 14:55:00
+checked for new consumption
+2020-02-14 14:55:03
+checked for new consumption
+2020-02-14 14:55:06
+checked for new consumption
+2020-02-14 14:55:09
+checked for new consumption
+2020-02-14 14:55:12
+checked for new consumption
+2020-02-14 14:55:15
+checked for new consumption
+2020-02-14 14:55:18
+checked for new consumption
+2020-02-14 14:55:21
+checked for new consumption
+2020-02-14 14:55:26
+new consumption detected
+2020-02-14 14:55:26
+xlsx file was created with 1 sheets 
+2020-02-14 14:55:26
+server connected
+2020-02-14 14:55:29
+Invoice no. 2020-1009 was created
+2020-02-14 14:55:29
+Email with invoice no. 2020-1009 sent
+2020-02-14 14:55:30
+1 sheets from xlsx converted to pdfs
+2020-02-14 14:55:52
+checked for new consumption
+2020-02-14 14:55:55
+checked for new consumption
+2020-02-14 14:55:58
+checked for new consumption
+2020-02-14 14:56:01
+checked for new consumption
+2020-02-14 14:56:04
+checked for new consumption
+2020-02-14 14:56:07
+checked for new consumption
+2020-02-14 14:56:10
+checked for new consumption
+2020-02-14 14:56:13
+checked for new consumption
+2020-02-14 14:56:16
+checked for new consumption
+2020-02-14 14:56:19
+checked for new consumption
+2020-02-14 14:56:22
+checked for new consumption
+2020-02-14 14:56:25
+checked for new consumption
+2020-02-14 14:56:28
+checked for new consumption
+2020-02-14 14:56:31
+checked for new consumption
+2020-02-14 14:56:34
+checked for new consumption
+2020-02-14 14:56:37
+checked for new consumption
+2020-02-14 14:56:40
+checked for new consumption
+2020-02-14 14:56:43
+checked for new consumption
+2020-02-14 14:56:46
+checked for new consumption
+2020-02-14 14:56:49
+checked for new consumption
+2020-02-14 14:56:52
+checked for new consumption
+2020-02-14 14:56:55
+checked for new consumption
+2020-02-14 14:56:58
+checked for new consumption
+
+2020-02-14 14:58:04 new consumption detected
+
+2020-02-14 14:58:04 xlsx file was created with 1 sheets 
+
+2020-02-14 14:58:05 server connected
+
+2020-02-14 14:58:07 Invoice no. 2020-1010 was created
+
+2020-02-14 14:58:07 Email with invoice no. 2020-1010 sent
+
+2020-02-14 14:58:09 1 sheets from xlsx converted to pdfs
+
+2020-02-14 14:58:35 checked for new consumption
+
+2020-02-14 14:58:38 checked for new consumption
+
+2020-02-14 14:58:41 checked for new consumption
+
+2020-02-14 14:58:44 checked for new consumption
+
+2020-02-14 14:58:47 checked for new consumption
+
+2020-02-14 14:58:50 checked for new consumption
+
+2020-02-14 14:58:53 checked for new consumption
+
+2020-02-14 14:58:56 checked for new consumption
+
+2020-02-14 14:58:59 checked for new consumption
+
+2020-02-14 14:59:06 new consumption detected
+
+2020-02-14 14:59:06 xlsx file was created with 1 sheets 
+
+2020-02-14 14:59:06 server connected
+
+2020-02-14 14:59:09 Invoice no. 2020-1011 was created
+
+2020-02-14 14:59:09 Email with invoice no. 2020-1011 sent
+
+2020-02-14 14:59:11 1 sheets from xlsx converted to pdfs
+
+2020-02-14 14:59:19 problem to check gmail
+
+new consumption detected 2020-02-14 15:00:03
+
+xlsx file was created with 1 sheets  2020-02-14 15:00:03
+
+server connected 2020-02-14 15:00:04
+
+Invoice no. 2020-1012 was created 2020-02-14 15:00:07
+
+Email with invoice no. 2020-1012 sent 2020-02-14 15:00:07
+
+1 sheets from xlsx converted to pdfs 2020-02-14 15:00:08
+
+new consumption detected 2020-02-14 15:00:26
+
+xlsx file was created with 1 sheets  2020-02-14 15:00:26
+
+server connected 2020-02-14 15:00:26
+
+Invoice no. 2020-1013 was created 2020-02-14 15:00:29
+
+Email with invoice no. 2020-1013 sent 2020-02-14 15:00:29
+
+1 sheets from xlsx converted to pdfs 2020-02-14 15:00:30
+
+problem to check gmail 2020-02-14 15:00:39
+
+new consumption detected 2020-02-14 15:01:43
+
+xlsx file was created with 1 sheets  2020-02-14 15:01:43
+
+server connected 2020-02-14 15:01:43
+
+Invoice no. 2020-1014 was created 2020-02-14 15:01:46
+
+Email with invoice no. 2020-1014 sent 2020-02-14 15:01:46
+
+1 sheets from xlsx converted to pdfs 2020-02-14 15:01:48
+
+new consumption detected
+ 2020-02-14 15:02:25
+
+xlsx file was created with 1 sheets 
+ 2020-02-14 15:02:25
+
+server connected
+ 2020-02-14 15:02:26
+
+Invoice no. 2020-1015 was created
+ 2020-02-14 15:02:29
+
+Email with invoice no. 2020-1015 sent
+ 2020-02-14 15:02:29
+
+1 sheets from xlsx converted to pdfs
+ 2020-02-14 15:02:31
+
+problem to check gmail
+ 2020-02-14 15:02:39
+
+new consumption detected
+ 2020-02-14 15:03:15
+
+xlsx file was created with 1 sheets 
+ 2020-02-14 15:03:15
+
+server connected
+ 2020-02-14 15:03:16
+
+Invoice no. 2020-1016 was created
+ 2020-02-14 15:03:18
+
+Email with invoice no. 2020-1016 sent
+ 2020-02-14 15:03:18
+
+1 sheets from xlsx converted to pdfs
+ 2020-02-14 15:03:20
+
+all data deleted by click on website
+ 2020-02-14 15:03:52
+
+no data detected to fill customer frame
+ 2020-02-14 15:03:54
+
+personalised table createdsx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:03:55
+
+database created by click on website
+ 2020-02-14 15:03:55
+
+no data detected to fill customer frame
+ 2020-02-14 15:03:57
+
+no data detected to fill customer frame
+ 2020-02-14 15:04:00
+
+no data detected to fill customer frame
+ 2020-02-14 15:04:03
+
+consumption inserted to customer: sx16968152
+ 2020-02-14 15:04:04
+
+consumption created from website
+ 2020-02-14 15:04:04
+
+personalised table createdsx16968152
+ 2020-02-14 15:04:23
+
+consumption created from website
+ 2020-02-14 15:04:23
+
+new consumption detected
+ 2020-02-14 15:04:47
+
+xlsx file was created with 1 sheets 
+ 2020-02-14 15:04:47
+
+server connected
+ 2020-02-14 15:04:47
+
+Invoice no. 2020-1000 was created
+ 2020-02-14 15:04:50
+
+Email with invoice no. 2020-1000 sent
+ 2020-02-14 15:04:50
+
+1 sheets from xlsx converted to pdfs
+ 2020-02-14 15:04:52
+
+problem to check gmail
+ 2020-02-14 15:05:01
+
+problem to check gmail
+ 2020-02-14 15:05:13

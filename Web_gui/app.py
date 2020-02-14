@@ -13,6 +13,7 @@ from RPA.creators.runners.web_function_wrapper import web_delete_all_files
 from creators.consumption.consumption_creator import create_json_of_new_consumption
 from creators.database.id_table_creator import get_all_consumption_by_id, fill_customers_consumption, \
     add_consumption_to_one_customer, add_customers_consumption
+from creators.runners.reporter import run_reporter
 from gmail_check.fake_face import get_random_face_url
 
 flask_app = Flask(__name__)
@@ -28,12 +29,14 @@ def view_welcome_page():
 def view_create_database():
     fill_customer_database(1)
     fill_customers_consumption()
+    run_reporter("database created by click on website")
     return render_template("admin.jinja2")
 
 
 @flask_app.route("/admin/delete_all_files")
 def view_delete_all_files():
     web_delete_all_files()
+    run_reporter("all data deleted by click on website")
     return render_template("admin.jinja2")
 
 
@@ -41,6 +44,7 @@ def view_delete_all_files():
 def view_create_new_consumption():
     add_customers_consumption()
     create_json_of_new_consumption()
+    run_reporter("consumption created from website")
     return render_template("admin.jinja2")
 
 
@@ -75,6 +79,7 @@ def login_user():
     password = request.form["password"]
     if username == "admin" and password == "admin":
         session["logged"] = True
+        run_reporter("admin logged")
         return redirect(url_for("view_admin"))
     else:
         return redirect(url_for("view_login"))
@@ -94,7 +99,6 @@ def add_customer():
             random_num = random.randrange(100, 999999)
             id = "sx" + str(random_num)
             insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
-            print(get_all_database_customers())
 
             with DatabaseConnection(database) as connection:
                 cursor = connection.cursor()
@@ -102,6 +106,7 @@ def add_customer():
                 customer = cursor.fetchone()
                 add_consumption_to_one_customer(id)
                 if customer:
+                    run_reporter(f"customer id: {id} created")
                     return render_template("customer.jinja2", customer=customer)
         else:
             return render_template("add_customer.jinja2")

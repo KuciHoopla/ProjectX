@@ -1,8 +1,19 @@
 import smtplib, ssl
-from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.multipart import *
 from email.mime.text import MIMEText
+
+from creators.runners.reporter import run_reporter
+from creators.variables.variables import pdfs_folder
+
+
+def open_server():
+    sender_email = "invoice.rpa.2020@gmail.com"
+    password = "Automationproject2020"
+    context = ssl.create_default_context()
+    server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context)
+    server.login(sender_email, password)
+    run_reporter("server connected")
+    return server
 
 
 def send_mail(path_pdf, email, number):
@@ -10,7 +21,6 @@ def send_mail(path_pdf, email, number):
     body = "Dear customer, \n please find invoice in attachment."
     sender_email = "invoice.rpa.2020@gmail.com"
     receiver_email = email
-    password = "Automationproject2020"
 
     message = MIMEMultipart()
     message["From"] = sender_email
@@ -21,28 +31,24 @@ def send_mail(path_pdf, email, number):
     message.attach(MIMEText(body, "plain"))
 
     filename = path_pdf
-
+    file = open(filename, errors='ignore')
     # Open PDF file in binary mode
-    with open(filename, "rb") as attachment:
-        part = MIMEBase("application", "octet-stream")
-        part.set_payload(attachment.read())
+    part = MIMEMultipart()
+    part.attach(MIMEText(file.read()))
 
-    encoders.encode_base64(part)
-
-    # Add header as key/value pair to attachment part
+# Add header as key/value pair to attachment part
     part.add_header(
         "Content-Disposition",
         f"attachment; filename= invoice.pdf",
     )
 
-    # Add attachment to message and convert message to string
+# Add attachment to message and convert message to string
     message.attach(part)
     text = message.as_string()
 
-    # Log in to server using secure context and send email
-    context = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-        server.login(sender_email, password)
-        server.sendmail(sender_email, receiver_email, text)
+# Log in to server using secure context and send email
+
+    return text
+    # server.sendmail(sender_email, receiver_email, text)
 
 

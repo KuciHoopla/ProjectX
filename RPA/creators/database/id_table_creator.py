@@ -3,6 +3,8 @@ from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
 from creators.database.database_creator import get_all_database_customers
 from datetime import datetime, timezone
+from RPA.creators.runners.reporter import run_reporter
+
 database = customers_database
 
 
@@ -13,6 +15,7 @@ def create_table_personalised(customer_id):
         cursor.execute(f'CREATE TABLE IF NOT EXISTS {customer_id}('
                        'date text primary key,'
                        'consumption integer)')
+        run_reporter(f"personalised table created{customer_id}")
 
 
 def get_all_consumption_by_id(customer_id):
@@ -35,6 +38,7 @@ def insert_consumption_to_customer(customer_id, consumption, date):
             cursor = connection.cursor()
             customer_id = str(customer_id)
             cursor.execute(f'INSERT INTO {customer_id} VALUES(?,?)', (date, consumption))
+            run_reporter(f"consumption inserted to customer: {customer_id}")
     except:
         create_table_personalised(customer_id)
 
@@ -44,7 +48,7 @@ def fill_customers_consumption():
     i = 0
     for customer in customers:
         id = customer["id"]
-        i+=1
+        i += 1
         j = 1
         for x in range(12):
             month = j
@@ -57,7 +61,6 @@ def fill_customers_consumption():
 def add_customers_consumption():
     customers = get_all_database_customers()
     stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M')
-    print(stamp)
     for customer in customers:
         id = customer["id"]
         consumption = random.randrange(200, 2000)

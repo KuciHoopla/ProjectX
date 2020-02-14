@@ -32,7 +32,7 @@ def create_pdf():
             number = f'2020-{counter}'
             invoice_creator(id, first_name, last_name, address, consumption, tariff)
             pdf_path = f'{pdfs_folder}\\invoice{number}.pdf'
-            convert_xlsx_to_pdf(pdf_path)
+            convert_xlsx_to_pdf()
             print(f"Invoice no. {number} was created")
             send_mail(pdf_path, email, number)
             print(f"Email with invoice no. {number} sent")
@@ -41,4 +41,3 @@ def create_pdf():
     except:
         print("create pdf problem")
 
-create_pdf()

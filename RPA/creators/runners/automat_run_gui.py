@@ -2,35 +2,20 @@ import os
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText
 from tkinter.ttk import *
-from datetime import datetime, timezone
+from creators.excel.excel_invoice_creator import invoice_creator
+from creators.pdf.convert_xlsx_to_pdf import convert_xlsx_to_pdf
 from creators.runners.BkgrFrame import BkgrFrame
 from RPA.creators.database.database_creator import get_all_database_customers
 from RPA.creators.database.database_invoices import get_all_invoices_numbers
-from RPA.creators.pdf.create_pdf import create_pdf
 from RPA.creators.variables.variables import printscreen, jsons_folder, resources_folder
 from RPA.gmail_check.gmail_check import gmail_check
 from creators.consumption.consumption_creator import get_json_with_new_consumption
 from creators.directory_check.directory_check import get_list_of_jsons
 from tkscrolledframe import ScrolledFrame
 
+from creators.runners.reporter import run_reporter
 
 jsons_directory_len_old = 0
-
-
-def create_customer_data():
-    try:
-        customers = get_all_database_customers()
-        for customer in customers:
-            id = customer["id"]
-            first_name = customer["first_name"]
-            last_name = customer["last_name"]
-            consumption = customer["consumption"]
-            tariff = customer["tariff"]
-            email = customer["email"]
-            return id, first_name, last_name, consumption, tariff, email
-
-    except:
-        print("no data")
 
 
 def automat_run():
@@ -42,7 +27,6 @@ def automat_run():
     window.configure(background='#66b3ff')
     style_of_buttons = Style()
     style_of_buttons.configure('W.TButton', width=23, relief=GROOVE, activebackground="Red", borderwidth='4')
-
 
     def fill_invoices_numbers_table():
         invoices_frame.insert(INSERT,
@@ -86,7 +70,8 @@ ________________________________________________________________________
                 """)
 
         except:
-            print("no data")
+            run_reporter("no data detected to fill customer frame")
+
 
     customer_table_label = Label(window, text="Customer table")
 
@@ -106,10 +91,10 @@ ________________________________________________________________________
         width=32,
         height=10
     )
-
-    printscreen_frame = ScrolledFrame(window)
-    printscreen_frame.bind_arrow_keys(window)
-    printscreen_frame.bind_scroll_wheel(window)
+    printscreen_wrapper = Frame(window)
+    printscreen_frame = ScrolledFrame(printscreen_wrapper)
+    printscreen_frame.bind_arrow_keys(printscreen_wrapper)
+    printscreen_frame.bind_scroll_wheel(printscreen_wrapper)
     inner_frame = printscreen_frame.display_widget(Frame)
 
     customer_table_label.pack()
@@ -117,6 +102,7 @@ ________________________________________________________________________
     invoices_label.pack()
     invoices_frame.pack()
     printscreen_label.pack()
+    printscreen_wrapper.pack(side="bottom", expand=1, fill="both")
     printscreen_frame.pack(side="bottom", expand=1, fill="both")
 
     def refresh():
@@ -131,19 +117,15 @@ ________________________________________________________________________
         except:
             pass
         if jsons_directory_len > jsons_directory_len_old:
-            create_pdf()
+            run_reporter("new consumption detected")
+            invoice_creator()
+            convert_xlsx_to_pdf()
             gmail_check()
-            bkrgframe = BkgrFrame(inner_frame, printscreen, 800, 600)
+            bkrgframe = BkgrFrame(inner_frame, printscreen, 900, 600)
             bkrgframe.grid()
             jsons_directory_len_old = jsons_directory_len
         else:
-            print(
-f"""
-__________________________________________________________________
-checked: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')}
-no new consumption detected
-
-                    """)
+            pass
 
         window.after(3000, refresh)
 
