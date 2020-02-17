@@ -27,9 +27,10 @@ def gmail_check():
         driver.find_element_by_class_name("T-Jo").click()
         driver.find_element_by_class_name("asa").click()
         time.sleep(5)
-        driver.close()
     except:
         run_reporter("problem to check gmail")
         driver.close()
         gmail_check()
 
+    finally:
+        driver.close()
