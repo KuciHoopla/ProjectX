@@ -15,6 +15,8 @@ pdfs_folder = f'{resources_folder}\\pdfs'
 jsons_folder = f'{resources_folder}\\jsons'
 new_consumption_folder = f'{resources_folder}\\new_consumption'
 chromedriver_path = f'{resources_folder}\\chromedriver\\chromedriver.exe'
+geckodriver_path = f'{resources_folder}\\chromedriver\\geckodriver.exe'
+
 
 faces_urls = f'{resources_folder}\\faces_url.json'
 customers_json = f'{resources_folder}\\customers_file.json'

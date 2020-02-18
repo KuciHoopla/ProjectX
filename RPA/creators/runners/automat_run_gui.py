@@ -1,4 +1,6 @@
 import os
+import random
+import time
 from tkinter import *
 from tkinter.scrolledtext import ScrolledText
 from tkinter.ttk import *
@@ -14,12 +16,12 @@ from creators.directory_check.directory_check import get_list_of_jsons
 from tkscrolledframe import ScrolledFrame
 
 from creators.runners.reporter import run_reporter
+from creators.runners.selenium_runner import selenium_add_new_consumption, selenium_add_customer
 
 jsons_directory_len_old = 0
 
 
 def automat_run():
-
     # execution window:
     window = Tk()
     window.geometry('900x900')
@@ -106,6 +108,7 @@ ________________________________________________________________________
     printscreen_frame.pack(side="bottom", expand=1, fill="both")
 
     def refresh():
+        random_num = random.randrange(10)
         global jsons_directory_len_old
         jsons_directory_len = len(get_list_of_jsons())
         customers_frame.delete(1.0, END)
@@ -126,10 +129,13 @@ ________________________________________________________________________
             jsons_directory_len_old = jsons_directory_len
         else:
             pass
+        selenium_add_customer(random_num)
+        time.sleep(random_num)
+        selenium_add_new_consumption()
 
         window.after(3000, refresh)
 
-    window.after(3000, refresh)
+    window.after(5000, refresh)
     window.mainloop()
 
 
