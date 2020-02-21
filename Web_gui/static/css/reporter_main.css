@@ -1,0 +1,41 @@
+body {
+    position: relative;
+    padding: 0 8%;
+    background: url("../photos/graph_bkg.jpeg") no-repeat fixed center;
+    height: 100vh;
+}
+
+.report_text{
+    color: white;
+    padding-left: 3px;
+
+}
+
+.card-holder{
+    margin: 3px;
+    background: rgba(123,123,123, .4);
+}
+
+header {
+    text-align: center;
+}
+
+.nav-link{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    border-bottom: 1px solid #ba8b00;
+}
+
+main{
+    width: 90%;
+    height: 60%;
+    overflow: auto;
+    margin: 50px auto;
+}
+
+
+
+
+
+

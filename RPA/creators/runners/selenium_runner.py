@@ -3,17 +3,16 @@ import time
 import names
 from faker import Faker
 from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.select import Select
 from RPA.creators.variables.variables import chromedriver_path, geckodriver_path
-from creators.runners.reporter import run_reporter
+from creators.database.database_reporter import insert_report
 
 
 def selenium_add_customer(quantity):
     i = 0
     options = Options()
-    options.headless = True
+    options.headless = False
     # options.add_argument('start-maximized')
     driver = webdriver.Firefox(executable_path=geckodriver_path, options=options)
     driver.get('http://localhost:5000/')
@@ -42,9 +41,9 @@ def selenium_add_customer(quantity):
             driver.find_element_by_class_name("btn-primary").click()
             driver.find_element_by_id("admin_link").click()
         except:
-            run_reporter("problem to add customer")
+            insert_report(defect="problem to add customer")
     driver.find_element_by_id("log_out").click()
-    run_reporter(f"{quantity} new customers were added to database")
+    insert_report(passed=f"{quantity} new customers were added to database")
     driver.quit()
 
 
@@ -62,10 +61,23 @@ def selenium_add_new_consumption():
         driver.find_element_by_id("btn_create_new_consumption").click()
         driver.find_element_by_id("log_out").click()
         driver.quit()
-        run_reporter(f"new consumption created")
+        insert_report(passed=f"new consumption created")
     except:
-        run_reporter(f"problem to create new consumption it will try again")
+        insert_report(defect=f"problem to create new consumption it will try again")
         selenium_add_new_consumption()
 
+
+def selenium_refresh_page():
+    options = Options()
+    driver = webdriver.Firefox(executable_path=geckodriver_path, options=options)
+    driver.set_window_size(1200, 1000)
+    driver.get('http://localhost:5000/')
+    driver.find_element_by_id("admin_link").click()
+    driver.find_element_by_id("inputEmail3").send_keys("admin")
+    driver.find_element_by_id("inputPassword3").send_keys("admin")
+    driver.find_element_by_class_name("btn-primary").click()
+    while True:
+        driver.refresh()
+        time.sleep(10)
 
 

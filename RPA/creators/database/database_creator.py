@@ -3,6 +3,7 @@ import names
 from RPA.creators.customers.customers_creator import *
 from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
+from creators.database.database_reporter import insert_report
 from gmail_check.fake_face import get_random_face_url
 
 database = customers_database
@@ -85,7 +86,7 @@ def fill_database_from_json():
                 face = customer.get("face")
                 insert_customer(id, first_name, last_name, address, email, consumption, tariff, face)
     except:
-        return print("error")
+        insert_report(defect="no JSON")
 
 
 def fill_customer_database(number_of_customers):

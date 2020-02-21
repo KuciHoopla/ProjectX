@@ -3,10 +3,10 @@ from datetime import datetime, timezone, timedelta
 
 import xlsxwriter
 
-from RPA.creators.variables.variables import photos_folder, excel_path, printscreen, jsons_folder
+from RPA.creators.variables.variables import photos_folder, excel_path, printscreens, jsons_folder
 from creators.consumption.consumption_creator import get_json_with_new_consumption
+from creators.database.database_reporter import insert_report
 from creators.directory_check.directory_check import get_list_of_jsons
-from creators.runners.reporter import run_reporter
 
 
 def invoice_creator():
@@ -126,8 +126,7 @@ def invoice_creator():
                                         ' www.energykft.com / myaccount - sme', {'width': 580, 'height': 100})
 
         worksheet.set_footer(footer)
-
-    run_reporter(f"xlsx file was created with {number_of_customers} sheets ")
+    insert_report(passed=f"xlsx file was created with {number_of_customers} sheets ")
 
     writer.close()
 

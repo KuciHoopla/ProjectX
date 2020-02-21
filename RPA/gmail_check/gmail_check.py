@@ -1,15 +1,16 @@
 import time
+from datetime import datetime, timezone
 
-from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import Options
 
-from RPA.creators.variables.variables import chromedriver_path, printscreen, geckodriver_path
-from creators.runners.reporter import run_reporter
+from RPA.creators.variables.variables import printscreens, geckodriver_path
+from creators.database.database_reporter import insert_report
 
 
 def gmail_check():
+    date = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H:%M")
     options = Options()
     options.headless = True
     # options.add_argument('start-maximized')
@@ -25,12 +26,15 @@ def gmail_check():
         driver.find_element_by_class_name("whsOnd").send_keys("Automationproject2020")
         driver.find_element_by_id("passwordNext").click()
         time.sleep(3)
-        driver.save_screenshot(printscreen)
+        driver.save_screenshot(f'{printscreens}\\{date}.png')
         # Image.open(printscreen).show()
         driver.find_element_by_class_name("T-Jo").click()
         driver.find_element_by_class_name("asa").click()
+        time.sleep(5)
+        insert_report(passed="printscreen created")
+
     except:
-        run_reporter("problem to check gmail")
+        insert_report(defect="problem to check gmail, it will try again")
         driver.close()
         gmail_check()
 

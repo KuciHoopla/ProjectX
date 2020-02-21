@@ -1,5 +1,7 @@
 import os
 from RPA.creators.variables.variables import invoices_path, invoices_number_path
+from creators.database.database_reporter import insert_report
+
 invoices_path = invoices_path
 invoices_number_path = invoices_number_path
 
@@ -43,7 +45,8 @@ def get_all_invoices_numbers():
 
         return lines
     except:
-        print("no invoices")
+        insert_report(defect="no invoices")
+
 
 
 

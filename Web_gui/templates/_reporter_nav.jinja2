@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Reporter</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+         <li class="nav-item">
+             <a id="reporter_link" class="nav-link"  href="{{ url_for("view_reporter_overview") }}">Overview</a>
+         </li>
+         <li class="nav-item">
+             <a id="passed_link" class="nav-link"  href="{{ url_for("view_reporter_tags") }}">Tags</a>
+         </li>
+          <li class="nav-item">
+             <a id="defects_link" class="nav-link"  href="{{ url_for("view_reporter_invoices") }}">Invoices</a>
+         </li>
+    </ul>
+  </div>
+
+</nav>

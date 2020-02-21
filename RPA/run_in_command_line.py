@@ -1,28 +1,36 @@
-import os
+import random
+import time
 
-from RPA.creators.runners.command_line import description_ask_for_number, ask_for_number, \
-    description_ask_for_creating_pdfs_and_send, ask_for_creating_pdfs_and_send
-from RPA.creators.variables.variables import customers_database, customers_json, printscreen
-from RPA.gmail_check.gmail_check import gmail_check
+from creators.database.database_reporter import insert_report
+from creators.directory_check.directory_check import get_list_of_jsons
+from creators.excel.excel_invoice_creator import invoice_creator
+from creators.pdf.convert_xlsx_to_pdf import convert_xlsx_to_pdf
+from creators.runners.selenium_runner import selenium_add_customer, selenium_add_new_consumption
+from gmail_check.gmail_check import gmail_check
 
-
-def launch():
-    print(description_ask_for_number)
-    ask_for_number()
-    print(description_ask_for_creating_pdfs_and_send)
-    ask_for_creating_pdfs_and_send()
-    gmail_check()
-    os.remove(customers_database)
-    os.remove(customers_json)
-    print("""
-    __________________________________________________
-    
-    Process successful.
-    All data deleted!
-    __________________________________________________""")
+jsons_directory_len_old = 0
 
 
+def command_line_runner():
+    while True:
+        random_num = random.randrange(10)
+        global jsons_directory_len_old
+        jsons_directory_len = len(get_list_of_jsons())
 
+        if jsons_directory_len > jsons_directory_len_old:
+            insert_report(passed="JSON detected")
+            invoice_creator()
+            convert_xlsx_to_pdf()
+            gmail_check()
+            jsons_directory_len_old = jsons_directory_len
+        else:
+            pass
+        selenium_add_customer(random_num)
+        time.sleep(random_num)
+        selenium_add_new_consumption()
+
+
+command_line_runner()
 
 
 

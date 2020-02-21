@@ -1,0 +1,31 @@
+{% extends "_reporter_main.jinja2" %}
+
+{% block title %} Reporter {% endblock %}
+
+
+{% block main %}
+    <table class="table table-striped table-dark">
+         {% if reports %}
+<thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Time stamp</th>
+      <th scope="col">Passed Tag</th>
+      <th scope="col">Defect Tag</th>
+    </tr>
+  </thead>
+<tbody>
+{% for report in reports%}
+    <th>{{loop.index}} </th>
+    <td>{{ report["date"]}}</td>
+    <td class="font-weight-bold" style="color: #1e7e34">{{ report["passed"]}} </td>
+    <td class="font-weight-bold" style="color: #a71d2a">{{ report["defect"]}}</td>
+    </tr>
+        {% endfor %}
+    {% else %}
+             <p> No Customers :( </p>
+         {% endif %}
+
+</tbody>
+</table>
+{% endblock %}

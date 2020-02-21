@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> {% block title %} {% endblock %} </title>
+    {% include "_reporter_head.jinja2" %}
+</head>
+
+<body>
+
+{% include "_reporter_nav.jinja2" %}
+
+<div id="carousel_wrapper">
+    {% block carousel %} {% endblock %}
+</div>
+
+<div>
+    {% block buttons %} {% endblock %}
+</div>
+
+<main id="main_wrapper">
+    {% block main %} {% endblock %}
+</main>
+
+{% include "_reporter_footer.jinja2" %}
+
+<script type="text/javascript" src={{url_for("static", filename="js/reporter_main.js")}}></script>
+</body>
+</html>
+

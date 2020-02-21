@@ -1,0 +1,18 @@
+{% extends "_reporter_main.jinja2" %}
+
+{% block title %} Reporter {% endblock %}
+
+
+{% block main %}
+         {% if reports %}
+
+{% for report in reports%}
+    <embed src="{{ url_for("static",  filename=report['invoice'])}}"  type="application/pdf"   height="300px" width="250px">
+
+{% endfor %}
+{% else %}
+            <p> No Customers :( </p>
+         {% endif %}
+
+
+{% endblock %}

@@ -1125,3 +1125,1313 @@ JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: b
 *** You are running in headless mode.
 1582028529794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
 1582028529794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029159778	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilerU5QKQ"
+1582029160239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029160239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029161568	Marionette	INFO	Listening on port 64601
+1582029161834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+[Parent 26116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 26116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 24732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, lin[eC 332
+h[Child 24732, Chromild 23332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23332, [Parent 26116, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26256, Chr1582029215719	Marionette	INFO	Stopped listening on port 64601
+[GPU 28244, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582029222071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilergY7n8"
+1582029222509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029222509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029223755	Marionette	INFO	Listening on port 64687
+1582029224143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+1582029416839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileLBwx9J"
+1582029417272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029417272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029418446	Marionette	INFO	Listening on port 64915
+1582029418864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+[Parent 30876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 30[876C,h Gecko_IOThirledad] WARNING: pipe err 30472, Chrome_Chior: 109: ldThread] WAfile z:RN/build/buiING: pld/src/ipc/chromium/sripe error: 109: file z:/build/build/srcc/chrome/co/ipc/chromium/src/chrome/commmon/ipc_chamon/innel_win.cc, linpce 3_channel_win.cc, 32line 332
+
+[Child 30472, Chrome[Child 25036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25036, Chro[Parent 30876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9828, Chrom1582029440036	Marionette	INFO	Stopped listening on port 64915
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582029599305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileePFY16"
+1582029599724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029599724	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029601587	Marionette	INFO	Listening on port 65165
+1582029601936	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 16088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/comm[oChild 27460,n/ipc_channel_win.cc, line 332 Chrome_ChildThre
+ad] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27[Parent 16088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3480, Chro1582029637236	Marionette	INFO	Stopped listening on port 65165
+[GPU 29632, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582029734552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileX20BkJ"
+*** You are running in headless mode.
+1582029734897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029734897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029735946	Marionette	INFO	Listening on port 65281
+1582029736088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582029740200	Marionette	INFO	Stopped listening on port 65281
+[Parent 30032, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 30032, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5404,[Child 18400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18400, Chrome_[Parent 30032, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21384, Chrome_Chi1582029748874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileUrJYfg"
+*** You are running in headless mode.
+1582029749217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029749217	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029750364	Marionette	INFO	Listening on port 65349
+1582029750417	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582029751647	Marionette	INFO	Stopped listening on port 65349
+[Parent 27576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18040[Child 21508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21508, Chrome_ChildThre[Parent 27576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10748, Chr1582029778667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile9lyVgd"
+1582029779027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029779027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029780321	Marionette	INFO	Listening on port 65433
+1582029780715	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+1582029795185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+1582029829423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+ANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileZdPqxP"
+*** You are running in headless mode.
+1582029873925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029873925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029875398	Marionette	INFO	Listening on port 49378
+1582029875479	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582029909105	Marionette	INFO	Stopped listening on port 49378
+[Parent 25628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29944[Child 29584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29584, Chr[Parent 25628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11496, 1582029920819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofiler9Ml7F"
+*** You are running in headless mode.
+1582029921212	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029921213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029922682	Marionette	INFO	Listening on port 49456
+1582029922882	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582029924141	Marionette	INFO	Stopped listening on port 49456
+[Parent 10096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 10096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13000[Child 31552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31552, Chrome_C[Parent 10096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30264, 1582029941421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileYfpeRB"
+*** You are running in headless mode.
+1582029941782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029941782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029942917	Marionette	INFO	Listening on port 49535
+1582029942945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582029957427	Marionette	INFO	Stopped listening on port 49535
+[Parent 29460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28116, Chrome_ChildTh[Child 1080, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 1080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 29460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28728, Chrome_ChildThrea1582029961415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilevTXL2C"
+*** You are running in headless mode.
+1582029961841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029961841	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029963144	Marionette	INFO	Listening on port 49621
+1582029994533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileDUy6Xa"
+*** You are running in headless mode.
+1582029994883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582029994883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582029995981	Marionette	INFO	Listening on port 49680
+1582029996056	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582029998510	Marionette	INFO	Stopped listening on port 49680
+[Parent 27528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2236, Chrome_Chi[Parent 27528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12844, Chrome[Parent 27528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28972, Chrome_ChildThread] WARNING: pipe error: 109: fi1582030004194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile4rI7NF"
+*** You are running in headless mode.
+1582030004535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030004535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030005606	Marionette	INFO	Listening on port 49742
+1582030005733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030006862	Marionette	INFO	Stopped listening on port 49742
+[Parent 16420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 291[Child 20812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20812, Chrom[Parent 16420, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30496, Chro1582030024647	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilekFlcPO"
+*** You are running in headless mode.
+1582030025106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030025106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030026702	Marionette	INFO	Listening on port 49849
+1582030026766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582030042265	Marionette	INFO	Stopped listening on port 49849
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 24372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 24372[Parent 9164, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27908, C1582030046295	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofiler5ioSC"
+*** You are running in headless mode.
+1582030046730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030046730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030047831	Marionette	INFO	Listening on port 49944
+1582030048332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030055690	Marionette	INFO	Stopped listening on port 49944
+[Parent 16500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12688,[Parent 16500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31060, Chrome_Chi[Parent 16500, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13896,1582030082271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilevLwF44"
+1582030082673	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030082674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030083924	Marionette	INFO	Listening on port 50067
+1582030084316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/bootstrap.js, line 240: TypeError: Bootstrap's JavaScript requires jQuery. jQuery must be included before Bootstrap's JavaScript.
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+e 332
+[Child 1528, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 1528, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/co[Parent 29220, Gecko_IOThreadmmon/ipc_channel_win.cc] WARNI, line 493
+NG: pipe erro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 1528, Chrome_Chr: 10ildThread9: file ] WAz:/build/build/src/ipc/chromiRNINGum/src: pip/chromee error: 109: file z:/bu/coild/buimmold/src/in/ipc/cpc_channel_whromin.cium/sc,rc/chrome/common/ipc_channel_win.cc, line 332
+ line 332
+[Child 18040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18040, Chrome_Chil1582030153641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilewawLyF"
+*** You are running in headless mode.
+1582030154077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030154077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030155138	Marionette	INFO	Listening on port 50576
+1582030155181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030156915	Marionette	INFO	Stopped listening on port 50576
+[Parent 16576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28876, [Parent 16576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26084, Chrome_C[Parent 16576, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3516, C1582030161559	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileQJloMw"
+*** You are running in headless mode.
+1582030161921	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030161921	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030163036	Marionette	INFO	Listening on port 50645
+1582030163090	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030164282	Marionette	INFO	Stopped listening on port 50645
+[Parent 3668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 3668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31[Child 30624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30624, Chrom[Parent 3668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23596, Chro1582030177662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileIllQ9Z"
+*** You are running in headless mode.
+1582030178015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030178015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030179089	Marionette	INFO	Listening on port 50770
+1582030179198	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582030193878	Marionette	INFO	Stopped listening on port 50770
+[Parent 29216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19384,[Child 25016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25016, Chrome_C[Parent 29216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12192, Chrome_Chil1582030197868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileHgszHl"
+*** You are running in headless mode.
+1582030198284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030198284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030199383	Marionette	INFO	Listening on port 50917
+1582030199404	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030205818	Marionette	INFO	Stopped listening on port 50917
+[Parent 5208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21496, Chrome_ChildThre[Parent 5208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1208, Chrome_ChildThread[Parent 5208, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 10784, Chro1582030216512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilek9b757"
+*** You are running in headless mode.
+1582030216874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030216874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030217965	Marionette	INFO	Listening on port 51065
+1582030218041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030219268	Marionette	INFO	Stopped listening on port 51065
+[Parent 13836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 13836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18684,[Child 20528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20528, Chro[Parent 13836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14920, 1582030245533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileMza4m3"
+*** You are running in headless mode.
+1582030245932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030245932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030247149	Marionette	INFO	Listening on port 51235
+1582030247594	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582030262094	Marionette	INFO	Stopped listening on port 51235
+[Parent 25296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30120, Chrome_ChildThre[Child 24788, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 24788, Chrome_Child[Parent 25296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13348,1582030266267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilen4jf1P"
+*** You are running in headless mode.
+1582030266837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030266837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030267980	Marionette	INFO	Listening on port 51377
+1582030268297	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030269999	Marionette	INFO	Stopped listening on port 51377
+[Parent 26528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28828, [Parent 26528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21584, Chrome_[Parent 26528, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29948, Ch1582030274604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileJgHeQQ"
+*** You are running in headless mode.
+1582030274952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030274952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030276022	Marionette	INFO	Listening on port 51472
+1582030276133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030277348	Marionette	INFO	Stopped listening on port 51472
+[Parent 26220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1[Child 29240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29240, Chro[Parent 26220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12876, Chrom1582030305002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileZDSaDn"
+*** You are running in headless mode.
+1582030305383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030305383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030306777	Marionette	INFO	Listening on port 51664
+1582030307031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582030321765	Marionette	INFO	Stopped listening on port 51664
+[Parent 28240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7256, Chrom[Parent 28240, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 28240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22980, Chrome_ChildThread] WARNING: pipe error: 109: file z:/bu[Parent 28240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31584, Chrome_1582030325760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileojUCuy"
+*** You are running in headless mode.
+1582030326215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030326215	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030327393	Marionette	INFO	Listening on port 51800
+1582030327844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030330532	Marionette	INFO	Stopped listening on port 51800
+[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22640,[Child 20344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20344, Chrome_ChildThrea[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25212, Chr1582030336302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileY6wU3M"
+*** You are running in headless mode.
+1582030336742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030336743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030337821	Marionette	INFO	Listening on port 51894
+1582030337871	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582030339118	Marionette	INFO	Stopped listening on port 51894
+[Parent 29004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 29004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 233[Child 17536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 17536, Ch[Parent 29004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26088, Chrome_1582030369801	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile8dyqlh"
+*** You are running in headless mode.
+1582030370189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030370189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030371458	Marionette	INFO	Listening on port 52071
+1582030371825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582030578891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileiFtsvM"
+1582030579305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030579305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030580616	Marionette	INFO	Listening on port 52549
+1582030580916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resourc[Chiled 3:1280, Chrome_ChildThread] WARNING: pipe/ error: 1/0g9r:e /fmodules/WebProgressChild.ijsle z:/buiml,d /build/src/ipc/chromliiune 58: Tymp/eEsrc/crror: thhrome/common/ipc_channel_win.cc, line 332i
+s.[Chimm.content is null
+JavaScript error: /accounts/static/_/js/k=gaia.gaiafe_glif.sk.nk0eHy-R8b8.O/am=jPgBw50AQCIgAB4AAAAAAAACAADDARSZQ8b__-BmzAtuAw/d=1/ct=zgms/rs=ABkqax0x8aBpQygtKOrBJWlJ8_CaqhdQQg/m=glifb,identifier,unknownerror, line 959: NS_ERROR_NOT_INITIALIZED: 
+[Child 31564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buil
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+d/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 31564, Chrome_ChildThre[Parent 20768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23612, Ch1582030582823	Marionette	INFO	Stopped listening on port 52549
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582030607508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileOr19hB"
+1582030607861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582030607861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582030609047	Marionette	INFO	Listening on port 52599
+1582030609540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+[Parent 23352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 23352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 13920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/[Child 10904, Chrsrc/chrome/coome_Childmmon/ipcThread] WARNI_channel_win.cc, line 332NG: pipe er
+[Child 139r20,or: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 109[Parent 23352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19848, Chrome_Chil1582030627457	Marionette	INFO	Stopped listening on port 52599
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 2
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582031891973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileqQVv3p"
+1582031892581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582031892581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582031894164	Marionette	INFO	Listening on port 53119
+1582031894662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+[Child 25236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child [Child 25236, Chrome_18944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1[Parent 24016, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4744, C1582032079670	Marionette	INFO	Stopped listening on port 53119
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 29056, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18124, 1582031965512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileCWVk9D"
+*** You are running in headless mode.
+1582031966482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582031966482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582031969289	Marionette	INFO	Listening on port 53346
+1582031969733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582031971870	Marionette	INFO	Stopped listening on port 53346
+[Parent 27832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 27832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel[Child 7352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buil_d/src/ipc/win.ccc, line 332
+hromium[Child /src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7352, JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+[Parent 27832, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1940,1582032000521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilexlmK62"
+1582032001000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582032001001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582032003296	Marionette	INFO	Listening on port 53491
+1582032003689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582032029896	Marionette	INFO	Stopped listening on port 53491
+[Parent 14308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3081JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 14308, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21372
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582032034990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileF97XE0"
+*** You are running in headless mode.
+1582032035990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582032035990	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582032038786	Marionette	INFO	Listening on port 53622
+1582032039239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582032052274	Marionette	INFO	Stopped listening on port 53622
+[Child 2948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/buil[dC/hsirc/ipc/chromium/src/chrome/common/ipc_clhannedl_win.cc, line 332
+ 15260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15260, Chrome_C[Parent 9836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16396, Chrome_ChildThread] WARNING: pipe error: 109: file z1582032063668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile0PtvkC"
+*** You are running in headless mode.
+1582032064601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582032064602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582032067219	Marionette	INFO	Listening on port 53745
+1582032067414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582032069637	Marionette	INFO	Stopped listening on port 53745
+[Parent 29808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 28244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2[Parent 29808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19692, Chr[Child 7320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7320, 1582032118978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile7HNdDS"
+1582032119401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582032119401	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582032120800	Marionette	INFO	Listening on port 53851
+1582032121030	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582032144951	Marionette	INFO	Stopped listening on port 53851
+[Child 24240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2424JavaScript error: resource://g[Parenrt 21372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+e/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Child 18776, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 18776, Chrome_Chil[Parent 21372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 21616
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582032149785	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileBwnPbr"
+*** You are running in headless mode.
+1582032150704	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582032150704	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582032153161	Marionette	INFO	Listening on port 53929
+1582032153507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582032162568	Marionette	INFO	Stopped listening on port 53929
+[Parent 2432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 29104, [Parent 2432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31696, Chrom[Parent 2432, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 12468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1582034941430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilesuwmcz"
+1582034941935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582034941936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582034943611	Marionette	INFO	Listening on port 54629
+1582034944050	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+rust_mozprofileYnLmp2"
+*** You are running in headless mode.
+1582035058526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035058526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035059977	Marionette	INFO	Listening on port 55006
+1582035060148	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035061607	Marionette	INFO	Stopped listening on port 55006
+[Parent 16492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15712, C[Parent 16492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31240, Chrome[Parent 16492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31676, Chr1582035079087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilepLpaqT"
+1582035079536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035079536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035081088	Marionette	INFO	Listening on port 55128
+1582035081103	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582035101087	Marionette	INFO	Stopped listening on port 55128
+[Parent 23704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3166JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeErro[Parent 23704, Geckor: this.m_m.content is null
+IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.0eMPfOYm1V8.O/am=V9PfQ3hA8BL4sjMCCADD4FTKaQ9-L6Wgz3JYHgAPMaL56-9AfQAAAAAAAAAAAAAAAAAAALAHNKwE/d=1/im=1/dg=0/ct=zgms/rs=AHGWq9DduogkM06eA5pW9Xc84JEofN99sQ/m=b, line 823: NS_ERROR_NOT_INITIALIZED: 
+[Child 28536, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+[Child 28536, Chrome_ChildThrea[Parent 23704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 240, C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582035105140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilewQyoPv"
+*** You are running in headless mode.
+1582035105560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035105561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035106661	Marionette	INFO	Listening on port 55253
+1582035107158	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035112594	Marionette	INFO	Stopped listening on port 55253
+[Parent 13068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 23156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Chil[dC 30508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30508, Chrome_Chi
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1B0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+[Parent 13068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 24196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 24196, C1582035122232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilejUggJB"
+*** You are running in headless mode.
+1582035122622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035122622	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035123801	Marionette	INFO	Listening on port 55366
+1582035124256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035125386	Marionette	INFO	Stopped listening on port 55366
+[Parent 22364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18356, [Child 4684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 4684, Chrome_Ch[Parent 22364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1582035160824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileHUiDuH"
+1582035161260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035161260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035162709	Marionette	INFO	Listening on port 55526
+1582035162840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582035182842	Marionette	INFO	Stopped listening on port 55526
+[Parent 27372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 27908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 27372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+JavaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.0eMPfOYm1V8.O/am=V9PfQ3hA8BL4sjMCCADD4FTKaQ9-L6Wgz3JYHgAPMaL56-9AfQAAAAAAAAAAAAAAAAAAALAHNKwE/d=1/im=1/dg=0/ct=zgms/rs=AHGWq9DduogkM06eA5pW9Xc84JEofN99sQ/m=b, line 823: NS_ERROR_NOT_INITIALIZED: 
+[Child 15404, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 493
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+[Child 15404, Chrom[Parent 27372, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 22800, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582035186894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileYNp2tZ"
+*** You are running in headless mode.
+1582035187327	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035187328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035188371	Marionette	INFO	Listening on port 55648
+1582035188426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035195953	Marionette	INFO	Stopped listening on port 55648
+[Parent 27156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 14680[Child 11784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11784, Chrome_ChildThread] WARN[Parent 27156, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25644, Chr1582035208572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilem7Rhki"
+*** You are running in headless mode.
+1582035208946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035208946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035210070	Marionette	INFO	Listening on port 55775
+1582035210091	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035211653	Marionette	INFO	Stopped listening on port 55775
+[Parent 8672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 8672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19[Child 11844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11844, Chrome_[Parent 8672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6852, Ch1582035258042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileFuUtTa"
+1582035258395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035258395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035259615	Marionette	INFO	Listening on port 55974
+1582035260053	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582035280174	Marionette	INFO	Stopped listening on port 55974
+[Child 30860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 30860, ChroJavaScript error: https://mail.google.com/_/scs/mail-static/_/js/k=gmail.main.en.0eMPfOYm1V8.O/am=V9PfQ3hA8BL4sjMCCADD4FTKaQ9-L6Wgz3JYHgAPMaL56-9AfQAAAAAAAAAAAAAAAAAAALAHNKwE/d=1/im=1/dg=0/ct=zgms/rs=AHGWq9DduogkM06eA5pW9Xc84JEofN99sQ/m=b, line 823: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ild 11824, Chrome_ChildThread] WAR
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+NING: pipe error: 109: file z:/build/build/src/ipc/chromi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+um/src/chrome/common/ipc_channel[Parent 29692, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 26912, Chrom[GPU 19192, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1582035284201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilevhaqXb"
+*** You are running in headless mode.
+1582035284629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035284630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035285716	Marionette	INFO	Listening on port 56109
+1582035286222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035291605	Marionette	INFO	Stopped listening on port 56109
+[Parent 4200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 4200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8724[Parent 4200, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 31552, Chr1582035301243	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilexyqevv"
+*** You are running in headless mode.
+1582035301763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582035301763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582035303144	Marionette	INFO	Listening on port 56206
+1582035303255	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 47: ReferenceError: btn_send_invoices is not defined
+JavaScript error: http://localhost:5000/static/js/main.js, line 34: TypeError: btn_create is null
+1582035304918	Marionette	INFO	Stopped listening on port 56206
+[Child 29844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 298[Child 25328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 25328,[Parent 27816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 15608, Ch1582100620440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofileNxPpCc"
+*** You are running in headless mode.
+1582100620939	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582100620940	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582100622257	Marionette	INFO	Listening on port 53588
+1582100622463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582100683690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofiletyw9LU"
+*** You are running in headless mode.
+1582100684130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582100684130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582100685347	Marionette	INFO	Listening on port 53683
+1582100685702	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582100752476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofile1Z9zuC"
+*** You are running in headless mode.
+1582100752926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582100752926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582100754040	Marionette	INFO	Listening on port 53773
+1582100754501	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582100780043	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\JANKUC~1\\AppData\\Local\\Temp\\rust_mozprofilehPJ5HV"
+*** You are running in headless mode.
+1582100780463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1582100780463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1582100781538	Marionette	INFO	Listening on port 53827
+1582100781563	Marionette	WARN	TLS certificate errors will be ignored for this session

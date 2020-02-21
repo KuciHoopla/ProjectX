@@ -3,7 +3,7 @@ from RPA.creators.database.database_connection import *
 from RPA.creators.variables.variables import customers_database
 from creators.database.database_creator import get_all_database_customers
 from datetime import datetime, timezone
-from RPA.creators.runners.reporter import run_reporter
+from creators.database.database_reporter import insert_report
 
 database = customers_database
 
@@ -15,7 +15,7 @@ def create_table_personalised(customer_id):
         cursor.execute(f'CREATE TABLE IF NOT EXISTS {customer_id}('
                        'date text primary key,'
                        'consumption integer)')
-        run_reporter(f"personalised table created{customer_id}")
+        insert_report(passed="personalised table created")
 
 
 def get_all_consumption_by_id(customer_id):
@@ -38,7 +38,8 @@ def insert_consumption_to_customer(customer_id, consumption, date):
             cursor = connection.cursor()
             customer_id = str(customer_id)
             cursor.execute(f'INSERT INTO {customer_id} VALUES(?,?)', (date, consumption))
-            run_reporter(f"consumption inserted to customer: {customer_id}")
+            insert_report(passed=f"consumption added to customer {customer_id}")
+
     except:
         create_table_personalised(customer_id)
 

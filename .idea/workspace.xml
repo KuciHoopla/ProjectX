@@ -2,7 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8324faaa-6c9e-48f9-aaa7-76fc0c68074d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RPA/creators/database/database_reporter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-21-12-32.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-21-12-36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/photos/printscreens/2020-02-19-14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/photos/printscreens/2020-02-21-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/creators/resources/photos/printscreens/2020-02-21-12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPA/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/css/reporter_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/js/reporter_main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/graph_bkg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/avatars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1003.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1005.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1006.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1007.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1008.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1009.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1012.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1015.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1017.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1021.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1022.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1023.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1024.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/_reporter_footer.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/_reporter_head.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/_reporter_main.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/_reporter_nav.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/reporter_invoices.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/reporter_overview.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web_gui/templates/reporter_tags.jinja2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA invoice.odp" beforeDir="false" afterPath="$PROJECT_DIR$/RPA invoice.odp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/database_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/database/database_invoices.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/database_invoices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/database/id_table_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/excel/excel_invoice_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/pdf/convert_xlsx_to_pdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/customers.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/invoices.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/invoices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/invoices_numbers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/invoices_numbers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/jsons/2020-02-18-12-20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-24-11-31-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-24-11-32-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-24-11-32-40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-24-11-36-23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-24-11-37-22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-27-14-37-49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-28-13-46-29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-28-13-49-25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-10-11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-12-56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-15-52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-22-30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-29-55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-32-35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-29-12-37-14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-30-07-41-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-01-30-08-22-36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-05-14-33-01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-05-14-36-44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-05-14-40-34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-12-07-31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-12-45-40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-12-49-49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-13-19-51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-14-08-43.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-14-09-29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-14-12-45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-14-16-03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-06-14-16-36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-07-07-43-46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/new_consumption/consumption-2020-02-12-09-29-24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1000.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1001.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1002.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1003.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1004.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1005.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1006.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1007.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1008.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1009.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1010.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1018.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1011.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1013.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1002.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1014.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1013.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1015.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1015.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1016.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1016.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1017.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1017.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1018.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1018.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1019.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1019.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1021.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1023.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1024.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1025.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1026.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1027.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1028.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1020.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1029.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1030.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1000.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1031.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1032.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1033.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1010.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1034.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1035.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1036.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1025.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1037.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1038.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1039.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1040.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1041.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1042.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1043.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1044.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1045.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1046.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1047.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1048.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1049.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1050.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1051.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1052.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1053.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1054.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1055.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1056.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1057.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1058.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1059.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1060.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1061.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1011.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1062.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1063.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1064.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1065.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1066.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1067.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1068.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1069.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1070.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1071.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1072.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1073.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1074.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1075.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1076.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1077.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1001.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1078.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1079.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1080.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1081.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1082.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1083.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1084.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1085.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1086.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1087.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1088.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1089.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1090.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1004.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1091.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1092.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1093.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1094.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1095.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1096.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1097.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1098.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1099.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1100.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1101.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1102.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1103.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1104.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1105.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1106.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1107.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1108.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1109.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/static/photos/pdfs/invoice2020-1016.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1110.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1111.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1112.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1113.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1114.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1115.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1116.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1117.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1118.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1119.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1120.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1121.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1122.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1123.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1124.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1125.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1126.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/pdfs/invoice2020-1127.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/resources/template.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/resources/template.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/BkgrFrame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/command_line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/reporter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/run_gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/scrollframe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/runners/selenium_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/runners/selenium_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/creators/variables/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/creators/variables/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/gmail_check/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/gmail_check/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/gmail_check/gmail_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/gmail_check/gmail_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/mail/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/mail/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/run_in_command_line.py" beforeDir="false" afterPath="$PROJECT_DIR$/RPA/run_in_command_line.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPA/run_in_gui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web_gui/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web_gui/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +272,51 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web_gui/static/photos/pdfs" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources\chromedriver" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\runners" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources\jsons" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources" />
       <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\photos" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\pdfs" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources\photos" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\resources\chromedriver" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\photos\pdfs" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\templates" />
       <recent name="C:\Users\JanKucera\PycharmProjects\Project\RPA\creators\database" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\Web_gui\templates" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\InvoiceRPA\gmail_check" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\InvoiceRPA\creators\runners" />
-      <recent name="C:\Users\JanKucera\PycharmProjects\InvoiceRPA\InvoiceRPA\creators\database" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\js" />
+      <recent name="C:\Users\JanKucera\PycharmProjects\Project\Web_gui\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gmail_check">
+  <component name="RunManager" selected="Python.run_in_command_line">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_reporter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Web_reporter/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +339,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="automat_run_gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="database_reporter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InvoiceRPA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/database/database_reporter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project_runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,7 +374,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/runners/automat_run_gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/runners/project_runner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +383,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gmail_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_in_command_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InvoiceRPA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,56 +391,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/gmail_check" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/gmail_check/gmail_check.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reporter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceRPA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/runners" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/runners/reporter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="selenium_runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InvoiceRPA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RPA/creators/runners" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/creators/runners/selenium_runner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RPA/run_in_command_line.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +407,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.automat_run_gui" />
-        <item itemvalue="Python.gmail_check" />
-        <item itemvalue="Python.selenium_runner" />
+        <item itemvalue="Python.run_in_command_line" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.reporter" />
+        <item itemvalue="Python.database_reporter" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.project_runner" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +440,9 @@
       <workItem from="1580378832393" duration="89061000" />
       <workItem from="1580979598820" duration="24191000" />
       <workItem from="1581414357174" duration="31756000" />
-      <workItem from="1581578952671" duration="68558000" />
+      <workItem from="1581578952671" duration="73682000" />
+      <workItem from="1582100027549" duration="13357000" />
+      <workItem from="1582119832458" duration="21430000" />
     </task>
     <task id="LOCAL-00001" summary="28010930">
       <created>1580200259566</created>
@@ -398,10 +626,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1005" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580460595858" />
-    <state x="532" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580740729121">
+    <state x="532" y="293" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582101211489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="293" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580740729121" />
+    <state x="532" y="293" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582101211489" />
     <state x="752" y="266" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580977712063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,47 +649,56 @@
     <state x="589" y="108" key="CommitChangelistDialog2/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582028696204" />
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581067118246" />
     <state x="589" y="108" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581960216188" />
-    <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1581688459566">
+    <state x="846" y="289" key="FileChooserDialogImpl" timestamp="1582120414362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="846" y="289" key="FileChooserDialogImpl/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581688459566" />
+    <state x="846" y="289" key="FileChooserDialogImpl/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582120414362" />
     <state x="846" y="289" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580130184347" />
-    <state width="1322" height="252" key="GridCell.Tab.0.bottom" timestamp="1582028627533">
+    <state width="1877" height="424" key="GridCell.Tab.0.bottom" timestamp="1582289361060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1348" height="238" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581692751613" />
     <state width="1131" height="257" key="GridCell.Tab.0.bottom/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1322" height="252" key="GridCell.Tab.0.bottom/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582028627533" />
+    <state width="1877" height="424" key="GridCell.Tab.0.bottom/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582289361060" />
     <state width="1230" height="221" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581879303438" />
     <state width="1173" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864633" />
+    <state width="1237" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1582032195525" />
     <state width="1877" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581957982790" />
-    <state width="1322" height="252" key="GridCell.Tab.0.center" timestamp="1582028627533">
+    <state width="1111" height="392" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040/-1920.-152.1920.1040@0.0.1920.1040" timestamp="1582035336170" />
+    <state width="1877" height="424" key="GridCell.Tab.0.center" timestamp="1582289361060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1348" height="238" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581692751613" />
     <state width="1131" height="257" key="GridCell.Tab.0.center/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1322" height="252" key="GridCell.Tab.0.center/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582028627533" />
+    <state width="1877" height="424" key="GridCell.Tab.0.center/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582289361060" />
     <state width="1230" height="221" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581879303437" />
     <state width="1173" height="257" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1237" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1582032195525" />
     <state width="1877" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581957982790" />
-    <state width="1322" height="252" key="GridCell.Tab.0.left" timestamp="1582028627533">
+    <state width="1111" height="392" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040/-1920.-152.1920.1040@0.0.1920.1040" timestamp="1582035336170" />
+    <state width="1877" height="424" key="GridCell.Tab.0.left" timestamp="1582289361060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1348" height="238" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581692751613" />
     <state width="1131" height="257" key="GridCell.Tab.0.left/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1322" height="252" key="GridCell.Tab.0.left/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582028627533" />
+    <state width="1877" height="424" key="GridCell.Tab.0.left/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582289361060" />
     <state width="1230" height="221" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581879303437" />
     <state width="1173" height="257" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1237" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1582032195524" />
     <state width="1877" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581957982787" />
-    <state width="1322" height="252" key="GridCell.Tab.0.right" timestamp="1582028627533">
+    <state width="1111" height="392" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040/-1920.-152.1920.1040@0.0.1920.1040" timestamp="1582035336170" />
+    <state width="1877" height="424" key="GridCell.Tab.0.right" timestamp="1582289361060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1348" height="238" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581692751613" />
     <state width="1131" height="257" key="GridCell.Tab.0.right/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580815172554" />
-    <state width="1322" height="252" key="GridCell.Tab.0.right/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582028627533" />
+    <state width="1877" height="424" key="GridCell.Tab.0.right/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582289361060" />
     <state width="1230" height="221" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581879303438" />
     <state width="1173" height="257" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1580137864632" />
+    <state width="1237" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@1920.0.1280.680" timestamp="1582032195525" />
     <state width="1877" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581957982790" />
+    <state width="1111" height="392" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040/-1920.-152.1920.1040@0.0.1920.1040" timestamp="1582035336170" />
     <state width="1348" height="339" key="GridCell.Tab.1.bottom" timestamp="1581578880781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -492,11 +730,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="757" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1580216393768" />
-    <state x="2231" y="177" width="902" height="811" key="dock-window-1" timestamp="1581586449228">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="904" y="26" width="863" height="811" key="dock-window-1" timestamp="1582115634553">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2231" y="177" width="902" height="811" key="dock-window-1/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581586449228" />
     <state x="332" y="52" width="1321" height="788" key="dock-window-1/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580396655634" />
+    <state x="904" y="26" width="863" height="811" key="dock-window-1/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582115634553" />
     <state x="42" y="71" width="682" height="847" key="dock-window-2" timestamp="1580456714320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -534,27 +773,33 @@
     </state>
     <state x="267" y="29" width="737" height="909" key="find.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581494420516" />
     <state x="2187" y="29" width="737" height="909" key="find.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1580474281473" />
-    <state x="917" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1581667005315">
+    <state x="917" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1582100319146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="917" y="241" width="672" height="678" key="search.everywhere.popup/-1920.-152.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581667005315" />
+    <state x="917" y="241" width="672" height="678" key="search.everywhere.popup/-1920.-152.1920.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582100319146" />
     <state x="917" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-152.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1579769261617" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project$id_table_creator.coverage" NAME="id_table_creator Coverage Results" MODIFIED="1581499572414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
-    <SUITE FILE_PATH="coverage/Project$app.coverage" NAME="app Coverage Results" MODIFIED="1582016453476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_gui" />
+    <SUITE FILE_PATH="coverage/Project$app.coverage" NAME="app Coverage Results" MODIFIED="1582289087506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_gui" />
+    <SUITE FILE_PATH="coverage/Project$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1582101515222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_reporter" />
     <SUITE FILE_PATH="coverage/Project$database_creator.coverage" NAME="database_creator Coverage Results" MODIFIED="1581431493810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
     <SUITE FILE_PATH="coverage/Project$excel_invoice_creator.coverage" NAME="excel_invoice_creator Coverage Results" MODIFIED="1581514242604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/excel" />
     <SUITE FILE_PATH="coverage/Project$automat_run_gui__1_.coverage" NAME="automat_run_gui (1) Coverage Results" MODIFIED="1581414436004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
-    <SUITE FILE_PATH="coverage/Project$gmail_check.coverage" NAME="gmail_check Coverage Results" MODIFIED="1582027369219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/gmail_check" />
+    <SUITE FILE_PATH="coverage/Project$gmail_check.coverage" NAME="gmail_check Coverage Results" MODIFIED="1582030528856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/gmail_check" />
     <SUITE FILE_PATH="coverage/Project$fake_face.coverage" NAME="fake_face Coverage Results" MODIFIED="1581513044076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/gmail_check" />
     <SUITE FILE_PATH="coverage/Project$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1581682666320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/mail" />
     <SUITE FILE_PATH="coverage/Project$reporter.coverage" NAME="reporter Coverage Results" MODIFIED="1581689059911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
+    <SUITE FILE_PATH="coverage/Project$project_runner.coverage" NAME="project_runner Coverage Results" MODIFIED="1582100859778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
     <SUITE FILE_PATH="coverage/Project$convert_xlsx_to_pdf.coverage" NAME="convert_xlsx_to_pdf Coverage Results" MODIFIED="1581515595815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/pdf" />
-    <SUITE FILE_PATH="coverage/Project$automat_run_gui.coverage" NAME="automat_run_gui Coverage Results" MODIFIED="1582028627533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
-    <SUITE FILE_PATH="coverage/Project$selenium_runner.coverage" NAME="selenium_runner Coverage Results" MODIFIED="1582026330085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
+    <SUITE FILE_PATH="coverage/Project$automat_run_gui.coverage" NAME="automat_run_gui Coverage Results" MODIFIED="1582035036550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
+    <SUITE FILE_PATH="coverage/Project$selenium_runner.coverage" NAME="selenium_runner Coverage Results" MODIFIED="1582029705623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
+    <SUITE FILE_PATH="coverage/Project$run_in_command_line.coverage" NAME="run_in_command_line Coverage Results" MODIFIED="1582289361049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA" />
+    <SUITE FILE_PATH="coverage/Project$database_reporter.coverage" NAME="database_reporter Coverage Results" MODIFIED="1582122755468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/database" />
     <SUITE FILE_PATH="coverage/Project$create_pdf.coverage" NAME="create_pdf Coverage Results" MODIFIED="1581516262064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/pdf" />
     <SUITE FILE_PATH="coverage/Project$directory_check.coverage" NAME="directory_check Coverage Results" MODIFIED="1581586232985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/directory_check" />
+    <SUITE FILE_PATH="coverage/Project$web_refresher.coverage" NAME="web_refresher Coverage Results" MODIFIED="1582034937820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/runners" />
     <SUITE FILE_PATH="coverage/Project$consumption_creator.coverage" NAME="consumption_creator Coverage Results" MODIFIED="1581585571790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RPA/creators/consumption" />
   </component>
 </project>

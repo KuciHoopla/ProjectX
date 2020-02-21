@@ -1,9 +1,9 @@
-import smtplib, ssl
+import smtplib
+import ssl
 from email.mime.multipart import *
 from email.mime.text import MIMEText
 
-from creators.runners.reporter import run_reporter
-from creators.variables.variables import pdfs_folder
+from creators.database.database_reporter import insert_report
 
 
 def open_server():
@@ -12,7 +12,7 @@ def open_server():
     context = ssl.create_default_context()
     server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context)
     server.login(sender_email, password)
-    run_reporter("server connected")
+    insert_report(passed="server connected")
     return server
 
 
