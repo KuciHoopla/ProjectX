@@ -7,12 +7,13 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
-
+from creators.variables.variables import static_foler
 from RPA.creators.database.database_creator import DatabaseConnection, database, get_all_database_customers, \
     insert_customer, fill_customer_database
 from RPA.creators.runners.web_function_wrapper import web_delete_all_files
 from creators.consumption.consumption_creator import create_json_of_new_consumption
-from creators.database.database_reporter import insert_report, get_all_reports
+from creators.database.database_reporter import insert_report, get_all_reports, get_names_of_invoices, \
+     get_number_of_invoices
 from creators.database.id_table_creator import get_all_consumption_by_id, fill_customers_consumption, \
     add_consumption_to_one_customer, add_customers_consumption
 from gmail_check.fake_face import get_random_face_url
@@ -136,8 +137,23 @@ def view_reporter_overview():
 
 @flask_app.route("/invoices/")
 def view_reporter_invoices():
-    reports = get_all_reports()
-    return render_template("reporter_invoices.jinja2", reports=reports)
+    invoices = get_names_of_invoices()
+    invoices_len = get_number_of_invoices()
+    return render_template("reporter_invoices.jinja2", invoices=invoices, invoices_len=invoices_len)
+
+
+@flask_app.route("/screenshots/")
+def view_reporter_screenshots():
+    try:
+        screenshots = os.listdir(f'{static_foler}\\photos\\printscreens')
+        png = ".png"
+        for shot in screenshots:
+            shot = shot + png
+            screenshots.append(shot)
+        print(screenshots)
+    except:
+        pass
+    return render_template("reporter_screenshots.jinja2", screenshots=screenshots)
 
 
 if __name__ == "__main__":

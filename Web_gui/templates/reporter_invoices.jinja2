@@ -4,15 +4,25 @@
 
 
 {% block main %}
-         {% if reports %}
-
-{% for report in reports%}
-    <embed src="{{ url_for("static",  filename=report['invoice'])}}"  type="application/pdf"   height="300px" width="250px">
-
+    <table style="width:30%" class="table table-striped table-dark">
+         {% if invoices %}
+<thead class="thead-dark">
+    <tr>
+      <th scope="col"># from {{invoices_len}}</th>
+      <th scope="col">Invoice</th>
+    </tr>
+  </thead>
+<tbody>
+{% for invoice in invoices%}
+    <tr>
+    <th style="width:30%">{{loop.index}} </th>
+    <td class="font-weight-bold col-4">{{ invoice}}</td>
+    </tr>
 {% endfor %}
 {% else %}
             <p> No Customers :( </p>
          {% endif %}
 
-
+</tbody>
+</table>
 {% endblock %}

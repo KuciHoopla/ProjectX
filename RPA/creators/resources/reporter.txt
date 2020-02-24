@@ -1,0 +1,223 @@
+14:12:40 2020-02-21, JSON detected, , ,  
+14:12:40 2020-02-21, xlsx file was created with 27 sheets , , ,  
+14:12:41 2020-02-21, server connected, , ,  
+14:12:45 2020-02-21, Invoice no. 2020-1087 was created, , invoice2020-1087.pdf, sx154280 
+14:12:45 2020-02-21, Email with invoice no. 2020-1087 sent, , , sx154280 
+14:12:46 2020-02-21, Invoice no. 2020-1088 was created, , invoice2020-1088.pdf, sx338991 
+14:12:46 2020-02-21, Email with invoice no. 2020-1088 sent, , , sx338991 
+14:12:47 2020-02-21, Invoice no. 2020-1089 was created, , invoice2020-1089.pdf, sx68730 
+14:12:47 2020-02-21, Email with invoice no. 2020-1089 sent, , , sx68730 
+14:12:47 2020-02-21, Invoice no. 2020-1090 was created, , invoice2020-1090.pdf, sx954676 
+14:12:47 2020-02-21, Email with invoice no. 2020-1090 sent, , , sx954676 
+14:12:48 2020-02-21, Invoice no. 2020-1091 was created, , invoice2020-1091.pdf, sx298265 
+14:12:48 2020-02-21, Email with invoice no. 2020-1091 sent, , , sx298265 
+14:12:48 2020-02-21, Invoice no. 2020-1092 was created, , invoice2020-1092.pdf, sx984871 
+14:12:48 2020-02-21, Email with invoice no. 2020-1092 sent, , , sx984871 
+14:12:49 2020-02-21, Invoice no. 2020-1093 was created, , invoice2020-1093.pdf, sx41883 
+14:12:49 2020-02-21, Email with invoice no. 2020-1093 sent, , , sx41883 
+14:12:49 2020-02-21, Invoice no. 2020-1094 was created, , invoice2020-1094.pdf, sx711571 
+14:12:49 2020-02-21, Email with invoice no. 2020-1094 sent, , , sx711571 
+14:12:50 2020-02-21, Invoice no. 2020-1095 was created, , invoice2020-1095.pdf, sx514331 
+14:12:50 2020-02-21, Email with invoice no. 2020-1095 sent, , , sx514331 
+14:12:50 2020-02-21, Invoice no. 2020-1096 was created, , invoice2020-1096.pdf, sx549926 
+14:12:50 2020-02-21, Email with invoice no. 2020-1096 sent, , , sx549926 
+14:12:50 2020-02-21, Invoice no. 2020-1097 was created, , invoice2020-1097.pdf, sx62556 
+14:12:50 2020-02-21, Email with invoice no. 2020-1097 sent, , , sx62556 
+14:12:51 2020-02-21, Invoice no. 2020-1098 was created, , invoice2020-1098.pdf, sx938670 
+14:12:51 2020-02-21, Email with invoice no. 2020-1098 sent, , , sx938670 
+14:12:51 2020-02-21, Invoice no. 2020-1099 was created, , invoice2020-1099.pdf, sx47333 
+14:12:51 2020-02-21, Email with invoice no. 2020-1099 sent, , , sx47333 
+14:12:52 2020-02-21, Invoice no. 2020-1100 was created, , invoice2020-1100.pdf, sx898812 
+14:12:52 2020-02-21, Email with invoice no. 2020-1100 sent, , , sx898812 
+14:12:52 2020-02-21, Invoice no. 2020-1101 was created, , invoice2020-1101.pdf, sx477094 
+14:12:52 2020-02-21, Email with invoice no. 2020-1101 sent, , , sx477094 
+14:12:53 2020-02-21, Invoice no. 2020-1102 was created, , invoice2020-1102.pdf, sx88389 
+14:12:53 2020-02-21, Email with invoice no. 2020-1102 sent, , , sx88389 
+14:12:53 2020-02-21, Invoice no. 2020-1103 was created, , invoice2020-1103.pdf, sx889242 
+14:12:53 2020-02-21, Email with invoice no. 2020-1103 sent, , , sx889242 
+14:12:54 2020-02-21, Invoice no. 2020-1104 was created, , invoice2020-1104.pdf, sx943661 
+14:12:54 2020-02-21, Email with invoice no. 2020-1104 sent, , , sx943661 
+14:12:54 2020-02-21, Invoice no. 2020-1105 was created, , invoice2020-1105.pdf, sx406021 
+14:12:54 2020-02-21, Email with invoice no. 2020-1105 sent, , , sx406021 
+14:12:54 2020-02-21, Invoice no. 2020-1106 was created, , invoice2020-1106.pdf, sx186244 
+14:12:54 2020-02-21, Email with invoice no. 2020-1106 sent, , , sx186244 
+14:12:55 2020-02-21, Invoice no. 2020-1107 was created, , invoice2020-1107.pdf, sx700619 
+14:12:55 2020-02-21, Email with invoice no. 2020-1107 sent, , , sx700619 
+14:12:55 2020-02-21, Invoice no. 2020-1108 was created, , invoice2020-1108.pdf, sx645328 
+14:12:55 2020-02-21, Email with invoice no. 2020-1108 sent, , , sx645328 
+14:12:56 2020-02-21, Invoice no. 2020-1109 was created, , invoice2020-1109.pdf, sx556458 
+14:12:56 2020-02-21, Email with invoice no. 2020-1109 sent, , , sx556458 
+14:12:56 2020-02-21, Invoice no. 2020-1110 was created, , invoice2020-1110.pdf, sx769793 
+14:12:56 2020-02-21, Email with invoice no. 2020-1110 sent, , , sx769793 
+14:12:57 2020-02-21, Invoice no. 2020-1111 was created, , invoice2020-1111.pdf, sx349370 
+14:12:57 2020-02-21, Email with invoice no. 2020-1111 sent, , , sx349370 
+14:12:57 2020-02-21, Invoice no. 2020-1112 was created, , invoice2020-1112.pdf, sx382183 
+14:12:57 2020-02-21, Email with invoice no. 2020-1112 sent, , , sx382183 
+14:12:58 2020-02-21, Invoice no. 2020-1113 was created, , invoice2020-1113.pdf, sx45329 
+14:12:58 2020-02-21, Email with invoice no. 2020-1113 sent, , , sx45329 
+15:56:02 2020-02-21, JSON detected, , ,  
+15:56:02 2020-02-21, xlsx file was created with 27 sheets , , ,  
+15:56:03 2020-02-21, server connected, , ,  
+15:56:07 2020-02-21, Invoice no. 2020-1114 was created, , invoice2020-1114.pdf, sx154280 
+15:56:07 2020-02-21, Email with invoice no. 2020-1114 sent, , , sx154280 
+15:56:08 2020-02-21, Invoice no. 2020-1115 was created, , invoice2020-1115.pdf, sx338991 
+15:56:08 2020-02-21, Email with invoice no. 2020-1115 sent, , , sx338991 
+15:56:08 2020-02-21, Invoice no. 2020-1116 was created, , invoice2020-1116.pdf, sx68730 
+15:56:08 2020-02-21, Email with invoice no. 2020-1116 sent, , , sx68730 
+15:56:08 2020-02-21, Invoice no. 2020-1117 was created, , invoice2020-1117.pdf, sx954676 
+15:56:09 2020-02-21, Email with invoice no. 2020-1117 sent, , , sx954676 
+15:56:09 2020-02-21, Invoice no. 2020-1118 was created, , invoice2020-1118.pdf, sx298265 
+15:56:09 2020-02-21, Email with invoice no. 2020-1118 sent, , , sx298265 
+15:56:09 2020-02-21, Invoice no. 2020-1119 was created, , invoice2020-1119.pdf, sx984871 
+15:56:09 2020-02-21, Email with invoice no. 2020-1119 sent, , , sx984871 
+15:56:10 2020-02-21, Invoice no. 2020-1120 was created, , invoice2020-1120.pdf, sx41883 
+15:56:10 2020-02-21, Email with invoice no. 2020-1120 sent, , , sx41883 
+15:56:10 2020-02-21, Invoice no. 2020-1121 was created, , invoice2020-1121.pdf, sx711571 
+15:56:10 2020-02-21, Email with invoice no. 2020-1121 sent, , , sx711571 
+15:56:11 2020-02-21, Invoice no. 2020-1122 was created, , invoice2020-1122.pdf, sx514331 
+15:56:11 2020-02-21, Email with invoice no. 2020-1122 sent, , , sx514331 
+15:56:11 2020-02-21, Invoice no. 2020-1123 was created, , invoice2020-1123.pdf, sx549926 
+15:56:11 2020-02-21, Email with invoice no. 2020-1123 sent, , , sx549926 
+15:56:11 2020-02-21, Invoice no. 2020-1124 was created, , invoice2020-1124.pdf, sx62556 
+15:56:11 2020-02-21, Email with invoice no. 2020-1124 sent, , , sx62556 
+15:56:12 2020-02-21, Invoice no. 2020-1125 was created, , invoice2020-1125.pdf, sx938670 
+15:56:12 2020-02-21, Email with invoice no. 2020-1125 sent, , , sx938670 
+15:56:12 2020-02-21, Invoice no. 2020-1126 was created, , invoice2020-1126.pdf, sx47333 
+15:56:12 2020-02-21, Email with invoice no. 2020-1126 sent, , , sx47333 
+15:56:13 2020-02-21, Invoice no. 2020-1127 was created, , invoice2020-1127.pdf, sx898812 
+15:56:13 2020-02-21, Email with invoice no. 2020-1127 sent, , , sx898812 
+15:56:13 2020-02-21, Invoice no. 2020-1128 was created, , invoice2020-1128.pdf, sx477094 
+15:56:13 2020-02-21, Email with invoice no. 2020-1128 sent, , , sx477094 
+15:56:14 2020-02-21, Invoice no. 2020-1129 was created, , invoice2020-1129.pdf, sx88389 
+15:56:14 2020-02-21, Email with invoice no. 2020-1129 sent, , , sx88389 
+15:56:14 2020-02-21, Invoice no. 2020-1130 was created, , invoice2020-1130.pdf, sx889242 
+15:56:14 2020-02-21, Email with invoice no. 2020-1130 sent, , , sx889242 
+15:56:14 2020-02-21, Invoice no. 2020-1131 was created, , invoice2020-1131.pdf, sx943661 
+15:56:14 2020-02-21, Email with invoice no. 2020-1131 sent, , , sx943661 
+15:56:15 2020-02-21, Invoice no. 2020-1132 was created, , invoice2020-1132.pdf, sx406021 
+15:56:15 2020-02-21, Email with invoice no. 2020-1132 sent, , , sx406021 
+15:56:15 2020-02-21, Invoice no. 2020-1133 was created, , invoice2020-1133.pdf, sx186244 
+15:56:15 2020-02-21, Email with invoice no. 2020-1133 sent, , , sx186244 
+15:56:16 2020-02-21, Invoice no. 2020-1134 was created, , invoice2020-1134.pdf, sx700619 
+15:56:16 2020-02-21, Email with invoice no. 2020-1134 sent, , , sx700619 
+15:56:16 2020-02-21, Invoice no. 2020-1135 was created, , invoice2020-1135.pdf, sx645328 
+15:56:16 2020-02-21, Email with invoice no. 2020-1135 sent, , , sx645328 
+15:56:17 2020-02-21, Invoice no. 2020-1136 was created, , invoice2020-1136.pdf, sx556458 
+15:56:17 2020-02-21, Email with invoice no. 2020-1136 sent, , , sx556458 
+15:56:17 2020-02-21, Invoice no. 2020-1137 was created, , invoice2020-1137.pdf, sx769793 
+15:56:17 2020-02-21, Email with invoice no. 2020-1137 sent, , , sx769793 
+15:56:17 2020-02-21, Invoice no. 2020-1138 was created, , invoice2020-1138.pdf, sx349370 
+15:56:17 2020-02-21, Email with invoice no. 2020-1138 sent, , , sx349370 
+15:56:18 2020-02-21, Invoice no. 2020-1139 was created, , invoice2020-1139.pdf, sx382183 
+15:56:18 2020-02-21, Email with invoice no. 2020-1139 sent, , , sx382183 
+15:56:18 2020-02-21, Invoice no. 2020-1140 was created, , invoice2020-1140.pdf, sx45329 
+15:56:18 2020-02-21, Email with invoice no. 2020-1140 sent, , , sx45329 
+15:56:58 2020-02-21, 27 sheets from xlsx converted to pdfs, , ,  
+15:57:24 2020-02-21, printscreen created, , ,  
+15:57:31 2020-02-21, admin logged, , ,  
+15:57:32 2020-02-21, personalised table created, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, consumption added to customer sx490830, , ,  
+15:57:32 2020-02-21, customer id: sx490830 created, , ,  
+15:57:33 2020-02-21, personalised table created, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, consumption added to customer sx760026, , ,  
+15:57:33 2020-02-21, customer id: sx760026 created, , ,  
+15:57:44 2020-02-21, , problem to add customer, ,  
+15:57:44 2020-02-21, personalised table created, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, consumption added to customer sx754562, , ,  
+15:57:44 2020-02-21, customer id: sx754562 created, , ,  
+15:57:45 2020-02-21, personalised table created, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, consumption added to customer sx408714, , ,  
+15:57:45 2020-02-21, customer id: sx408714 created, , ,  
+15:57:46 2020-02-21, personalised table created, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, consumption added to customer sx487633, , ,  
+15:57:46 2020-02-21, customer id: sx487633 created, , ,  
+15:57:47 2020-02-21, personalised table created, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, consumption added to customer sx380386, , ,  
+15:57:47 2020-02-21, customer id: sx380386 created, , ,  
+15:57:47 2020-02-21, personalised table created, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, consumption added to customer sx599117, , ,  
+15:57:47 2020-02-21, customer id: sx599117 created, , ,  
+15:57:48 2020-02-21, personalised table created, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, consumption added to customer sx463031, , ,  
+15:57:48 2020-02-21, customer id: sx463031 created, , ,  
+15:57:49 2020-02-21, 9 new customers were added to database, , ,  

@@ -4,42 +4,60 @@
 
 
 {% block main %}
-    <div id="customer_wrapper">
-    <div class="customer_info_box">
     {% if customer %}
-        <div class="container">
-            <div class="card">
-                <img  class="card-photo rounded-circle" src='{{customer[7]}}' class="card-img-top" alt="avatar">
-               <p class="customer_text">Customer ID:      <span>{{ customer[0] }}</span></p>
-               <p class="customer_text">Name:             <span>{{ customer[1] }}</span></p>
-               <p class="customer_text">Surname:          <span>{{ customer[2] }}</span></p>
-               <p class="customer_text">Email:            <span>{{ customer[3] }}</span></p>
-               <p class="customer_text">Address:          <span>{{ customer[4] }}</span></p>
-               <p class="customer_text">Tariff:           <span>{{ customer[6] }}</span></p>
-            </div>
-         </div>
+        <div class="container" style="padding: 30px;">
+        <img  class="card-photo" src='{{customer[7]}}' class="card-img-top" alt="avatar">
+        </div>
+        <table class="table table-striped table-bordered table-dark">
+
+        <thead>
+            <tr>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Address</th>
+                <th scope="col">Email</th>
+                <th scope="col">Tariff</th>
+            </tr>
+            </thead>
+         <tbody>
+    <td class="font-weight-bold">{{ customer[0] }} </td>
+    <td class="font-weight-bold">{{ customer[1] }}</td>
+    <td class="font-weight-bold">{{ customer[2] }}</td>
+    <td class="font-weight-bold">{{ customer[3] }}</td>
+    <td class="font-weight-bold">{{ customer[4] }}</td>
+    <td class="font-weight-bold">{{ customer[6] }}</td>
+        </tbody>
+        </table>
+
             {% else %}
             <p> No Customers :( </p>
             {% endif %}
-        </div>
 
-        <div class="customer_consumption_box">
-        {% if consumptions %}
-                {% for consumption in consumptions %}
-                    <div class="consumption_container">
-                    <div class="consumption_data">
-                    <p> Date: <span>{{ consumption.date}}</span> </p>
-                    <p> Consumption: <span>{{consumption.consumption}} kw/h</span> </p>
-            </div>
+           {% if consumptions %}
+
+    <table style="width:30%" class="table table-striped table-bordered table-dark table-sm">
+     <thead>
+       <tr>
+       <th scope="col">#</th>
+       <th scope="col">Date</th>
+       <th scope="col">Consumption in kw/h</th>
+       </tr>
+      </thead>
+      <tbody>
+        {% for consumption in consumptions %}
+      <tr>
+      <th style="width:20%">{{ loop.index }}</th>
+        <td class="font-weight-bold" style="width:50%">{{ consumption.date}} </td>
+        <td class="font-weight-bold" style="width:30%">{{consumption.consumption}}</td>
+      </tr>
 
         {% endfor %}
+         </tbody>
+         </table>
         {% else %}
              <div class="container">
                 <p> No consumption </p>
             </div>
-    {% endif %}
-      </div>
-        </div>
-        </div>
-    </div>
+        {% endif %}
 {% endblock %}

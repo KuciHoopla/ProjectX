@@ -44,7 +44,7 @@ def convert_xlsx_to_pdf():
         ws.Visible = 1
         ws.ExportAsFixedFormat(0, pdf_path)
         insert_report(passed=f"Invoice no. {number} was created",
-                      invoice=f'photos/pdfs/invoice{number}.pdf',
+                      invoice=f'invoice{number}.pdf',
                       customer_id=id)
         text = send_mail(pdf_path, email, number)
         loop = asyncio.get_event_loop()

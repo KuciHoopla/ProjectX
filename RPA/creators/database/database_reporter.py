@@ -4,7 +4,7 @@ from creators.variables.variables import resources_folder
 reporter = f'{resources_folder}reporter.txt'
 
 
-def insert_report(passed=None, defect=None, invoice=None, customer_id=None):
+def insert_report(passed="", defect="", invoice="", customer_id=""):
     with open(reporter, 'a') as file:
         date = datetime.now(timezone.utc).strftime('%H:%M:%S %Y-%m-%d')
         file.write(f'{date}, {passed}, {defect}, {invoice}, {customer_id} \n')
@@ -30,5 +30,19 @@ def get_all_reports():
         insert_report()
 
 
+def get_names_of_invoices():
+    reports = get_all_reports()
+    invoices = []
+    for report in reports:
+        invoice = report["invoice"]
+        if len(invoice) > 5:
+            invoices.append(invoice)
+    return invoices
+
+
+def get_number_of_invoices():
+    invoices = get_names_of_invoices()
+    invoices_len = len(invoices)
+    return invoices_len
 
 
