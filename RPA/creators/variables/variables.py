@@ -25,7 +25,7 @@ files_addressbook = f'{resources_folder}\\files_addressbook.json'
 consumption_json = f'{new_consumption_folder}\\consumption-{date}.json'
 customers_database = f'{resources_folder}\\customers.db'
 bckg_picture = f"{photos_folder}\\bckg.png"
-printscreens = f"{photos_folder}\\printscreens"
+printscreens = f"{static_foler}\\photos\\printscreens"
 invoices_path = f"{resources_folder}\\invoices.txt"
 invoices_number_path = f"{resources_folder}\\invoices_numbers.txt"
 

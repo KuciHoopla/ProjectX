@@ -12,8 +12,7 @@ from RPA.creators.database.database_creator import DatabaseConnection, database,
     insert_customer, fill_customer_database
 from RPA.creators.runners.web_function_wrapper import web_delete_all_files
 from creators.consumption.consumption_creator import create_json_of_new_consumption
-from creators.database.database_reporter import insert_report, get_all_reports, get_names_of_invoices, \
-     get_number_of_invoices
+from creators.database.database_reporter import insert_report, get_all_reports
 from creators.database.id_table_creator import get_all_consumption_by_id, fill_customers_consumption, \
     add_consumption_to_one_customer, add_customers_consumption
 from gmail_check.fake_face import get_random_face_url
@@ -81,7 +80,7 @@ def login_user():
     password = request.form["password"]
     if username == "admin" and password == "admin":
         session["logged"] = True
-        insert_report(passed="admin logged")
+        insert_report(passed="admin signed in")
         return redirect(url_for("view_admin"))
     else:
         return redirect(url_for("view_login"))
@@ -106,7 +105,7 @@ def add_customer():
                 cursor = connection.cursor()
                 cursor.execute('SELECT * FROM customers WHERE id=(?)', [id])
                 customer = cursor.fetchone()
-                add_consumption_to_one_customer(id)
+                # add_consumption_to_one_customer(id)
                 if customer:
                     insert_report(passed=f"customer id: {id} created")
                     return render_template("customer.jinja2", customer=customer)
@@ -120,6 +119,7 @@ def add_customer():
 @flask_app.route("/logout/", methods=["POST"])
 def logout_user():
     session.pop("logged")
+    insert_report(passed=f"admin logged-out")
     return redirect(url_for("view_welcome_page"))
 
 
@@ -137,23 +137,29 @@ def view_reporter_overview():
 
 @flask_app.route("/invoices/")
 def view_reporter_invoices():
-    invoices = get_names_of_invoices()
-    invoices_len = get_number_of_invoices()
-    return render_template("reporter_invoices.jinja2", invoices=invoices, invoices_len=invoices_len)
+    paths = []
+    try:
+        invoices = os.listdir(f'{static_foler}\\photos\\pdfs')
+        for invoice in invoices:
+            path = f"photos/pdfs/{invoice}"
+            paths.append(path)
+    except:
+        pass
+    return render_template("reporter_invoices.jinja2", paths=paths)
 
 
 @flask_app.route("/screenshots/")
 def view_reporter_screenshots():
+    paths = []
     try:
         screenshots = os.listdir(f'{static_foler}\\photos\\printscreens')
-        png = ".png"
         for shot in screenshots:
-            shot = shot + png
-            screenshots.append(shot)
-        print(screenshots)
+            path = f"photos/printscreens/{shot}"
+            paths.append(path)
     except:
         pass
-    return render_template("reporter_screenshots.jinja2", screenshots=screenshots)
+
+    return render_template("reporter_screenshots.jinja2", paths=paths)
 
 
 if __name__ == "__main__":

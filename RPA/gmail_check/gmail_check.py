@@ -10,7 +10,7 @@ from creators.database.database_reporter import insert_report
 
 
 def gmail_check():
-    date = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H:%M")
+    date = datetime.now(timezone.utc).strftime("%Y-%m-%d-%H-%M")
     options = Options()
     options.headless = True
     # options.add_argument('start-maximized')
@@ -26,7 +26,8 @@ def gmail_check():
         driver.find_element_by_class_name("whsOnd").send_keys("Automationproject2020")
         driver.find_element_by_id("passwordNext").click()
         time.sleep(3)
-        driver.save_screenshot(f'{printscreens}\\{date}.png')
+        driver.save_screenshot(f"{printscreens}\\{date}.png")
+        print(date)
         # Image.open(printscreen).show()
         driver.find_element_by_class_name("T-Jo").click()
         driver.find_element_by_class_name("asa").click()

@@ -25,24 +25,10 @@ def get_all_reports():
             {'date': line[0], 'passed': line[1], 'defect': line[2], 'invoice': line[3], 'customer_id': line[4]}
             for line in lines
         ]
-
     except:
-        insert_report()
+        pass
 
 
-def get_names_of_invoices():
-    reports = get_all_reports()
-    invoices = []
-    for report in reports:
-        invoice = report["invoice"]
-        if len(invoice) > 5:
-            invoices.append(invoice)
-    return invoices
 
-
-def get_number_of_invoices():
-    invoices = get_names_of_invoices()
-    invoices_len = len(invoices)
-    return invoices_len
 
 

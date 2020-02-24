@@ -4,25 +4,26 @@
 
 
 {% block main %}
-    <table style="width:30%" class="table table-striped table-dark">
-         {% if invoices %}
+        <table style="width: 30%;" class="table table-striped table-dark table-hover table-sm">
+         {% if paths %}
 <thead class="thead-dark">
     <tr>
-      <th scope="col"># from {{invoices_len}}</th>
-      <th scope="col">Invoice</th>
+      <th scope="col">#</th>
+      <th scope="col">Invoices</th>
     </tr>
   </thead>
 <tbody>
-{% for invoice in invoices%}
-    <tr>
-    <th style="width:30%">{{loop.index}} </th>
-    <td class="font-weight-bold col-4">{{ invoice}}</td>
+{% for path in paths%}
+    <th>{{loop.index}}</th>
+    <td><a style="color:#9fcdff;" href="{{ url_for('static',  filename=path)}}">{{ path[12:36] }}</a></td>
+
     </tr>
 {% endfor %}
 {% else %}
-            <p> No Customers :( </p>
+            <p style="color: #9fcdff"> No Invoices </p>
          {% endif %}
 
 </tbody>
 </table>
+
 {% endblock %}
