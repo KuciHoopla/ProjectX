@@ -7,7 +7,8 @@ from creators.database.database_reporter import insert_report
 
 
 def open_server():
-    sender_email = "invoice.rpa.2020@gmail.com"
+    # sender_email = "invoice.rpa.2020@gmail.com"
+    sender_email = "rpa.automation2020@gmail.com"
     password = "Automationproject2020"
     context = ssl.create_default_context()
     server = smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context)

@@ -30,6 +30,16 @@ def get_all_consumption_by_id(customer_id):
         return consumption_of_customer
     except:
         create_table_personalised(customer_id)
+        return 0
+
+
+def get_last_consumption_by_id(customer_id):
+    try:
+       consumption_of_customer = get_all_consumption_by_id(customer_id)[-1]["consumption"]
+       return consumption_of_customer
+    except:
+        create_table_personalised(customer_id)
+        return 0
 
 
 def insert_consumption_to_customer(customer_id, consumption, date):
@@ -61,7 +71,7 @@ def fill_customers_consumption():
 
 def add_customers_consumption():
     customers = get_all_database_customers()
-    stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M')
+    stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
     for customer in customers:
         id = customer["id"]
         consumption = random.randrange(200, 2000)
@@ -69,12 +79,9 @@ def add_customers_consumption():
 
 
 def add_consumption_to_one_customer(id):
-    j = 1
-    for x in range(12):
-        month = j
-        date = f"{month}-01-2019"
-        consumption = random.randrange(200, 2000)
-        insert_consumption_to_customer(id, consumption, date)
-        j += 1
+    date = datetime.now(timezone.utc).strftime('%Y-%m-%d-%H-%M-%S')
+    consumption = random.randrange(200, 2000)
+    insert_consumption_to_customer(id, consumption, date)
+
 
 

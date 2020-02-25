@@ -7,6 +7,9 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
+
+from creators.runners.statistics import number_of_customers, number_of_passed_actions, number_of_defects, \
+    number_of_created_invoices, number_of_created_screenshots
 from creators.variables.variables import static_foler
 from RPA.creators.database.database_creator import DatabaseConnection, database, get_all_database_customers, \
     insert_customer, fill_customer_database
@@ -28,7 +31,7 @@ def view_welcome_page():
 
 @flask_app.route("/admin/create_database")
 def view_create_database():
-    fill_customer_database(10)
+    fill_customer_database(1)
     fill_customers_consumption()
     insert_report(passed="database created from website")
     return render_template("admin.jinja2")
@@ -46,7 +49,7 @@ def view_create_new_consumption():
     add_customers_consumption()
     create_json_of_new_consumption()
     insert_report(passed="consumption created from website")
-    return render_template("admin.jinja2")
+    return redirect(url_for("view_admin"))
 
 
 @flask_app.route("/admin/", methods=["GET"])
@@ -131,8 +134,13 @@ def view_reporter_tags():
 
 @flask_app.route("/reporter/")
 def view_reporter_overview():
-    reports = get_all_reports()
-    return render_template("reporter_overview.jinja2", reports=reports)
+    customers = number_of_customers()
+    passed_actions = number_of_passed_actions()
+    defects = number_of_defects()
+    invoices = number_of_created_invoices()
+    screenshots = number_of_created_screenshots()
+    return render_template("reporter_overview.jinja2", customers=customers, passed_actions=passed_actions,
+                           defects=defects, invoices=invoices, screenshots=screenshots)
 
 
 @flask_app.route("/invoices/")

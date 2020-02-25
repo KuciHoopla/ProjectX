@@ -31,10 +31,15 @@ main{
     width: 90%;
     height: 80%;
     overflow: auto;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
+.statistics{
+    font-size: 50px;
+    color: #9fcdff;
+    width: 20%;
 
+}
 
 
 

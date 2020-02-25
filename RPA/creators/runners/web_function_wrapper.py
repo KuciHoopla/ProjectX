@@ -5,32 +5,38 @@ from shutil import rmtree
 
 def web_delete_all_files():
     try:
-        os.remove(customers_database)
+        os.remove(f"{resources_folder}\\customers.db")
+        print("database deleted")
+
     except:
         print("web delete all files fail = no database")
 
     try:
         os.remove(f"{resources_folder}\\template.xlsx")
+        print("template.xlsx deleted")
+
     except:
         print("web delete all files fail = no template.xlsx")
 
     try:
         os.remove(f"{resources_folder}\\invoices_numbers.txt")
+        print("invoices numbers.txt deleted")
+
     except:
         print("web delete all files fail = no invoices_numbers.txt")
 
     try:
         os.remove(f"{resources_folder}\\invoices.txt")
+        print("invoices.txt deleted")
+
     except:
         print("web delete all files fail = no invoices.txt")
 
-    try:
-        os.remove(f"{resources_folder}\\photos\\printscreen.png")
-    except:
-        print("web delete all files fail = no printscreen.png")
 
     try:
         os.remove(f"{resources_folder}\\reporter.txt")
+        print("reporter.txt deleted")
+
     except:
         print("web delete all files fail = no reporter.txt")
 

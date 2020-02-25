@@ -12,7 +12,7 @@ from creators.database.database_reporter import insert_report
 def selenium_add_customer(quantity):
     i = 0
     options = Options()
-    options.headless = False
+    options.headless = True
     # options.add_argument('start-maximized')
     driver = webdriver.Firefox(executable_path=geckodriver_path, options=options)
     driver.get('http://localhost:5000/')
@@ -58,6 +58,8 @@ def selenium_add_new_consumption():
     driver.find_element_by_id("inputPassword3").send_keys("admin")
     driver.find_element_by_class_name("btn-primary").click()
     try:
+        time.sleep(1)
+        driver.find_element_by_id("admin_link").click()
         driver.find_element_by_id("btn_create_new_consumption").click()
         driver.find_element_by_id("log_out").click()
         driver.quit()
@@ -79,5 +81,26 @@ def selenium_refresh_page():
     while True:
         driver.refresh()
         time.sleep(10)
+
+
+def selenium_create_database():
+    options = Options()
+    options.headless = True
+    # options.add_argument('start-maximized')
+    driver = webdriver.Firefox(executable_path=geckodriver_path, firefox_options=options)
+    driver.get('http://localhost:5000/')
+    driver.find_element_by_id("admin_link").click()
+    driver.find_element_by_id("inputEmail3").send_keys("admin")
+    driver.find_element_by_id("inputPassword3").send_keys("admin")
+    driver.find_element_by_class_name("btn-primary").click()
+    try:
+        time.sleep(1)
+        driver.find_element_by_id("admin_link").click()
+        driver.find_element_by_id("btn_create").click()
+        driver.find_element_by_id("log_out").click()
+        driver.quit()
+        insert_report(passed=f"database created")
+    except:
+        insert_report(defect=f"database exist")
 
 
